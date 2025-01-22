@@ -1,0 +1,245 @@
+---
+title: "JLC455_FinalProject"
+author: "Melanie Klein"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Libraries
+
+```{r, message=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(tigris)
+library(zoo)
+library(aTSA)
+library(tseries)
+library(forecast)
+library(data.table)
+library(readr)
+library(dplyr)
+```
+
+## Data
+
+https://mpdc.dc.gov/publication/mpd-adult-arrests-2013-2021
+
+```{r message=FALSE, warning=FALSE, echo = FALSE}
+data2022 <- read_csv("./2022AdultArrests.csv")
+data2021 <- read_csv("./2021AdultArrests.csv")
+data2020 <- read_csv("./2020AdultArrests.csv")
+data2019 <- read_csv("./2019AdultArrests.csv")
+data2018 <- read_csv("./2018AdultArrests.csv")
+data2017 <- read_csv("./2017AdultArrests.csv")
+data2016 <- read_csv("./2016AdultArrests.csv")
+data2015 <- read_csv("./2015AdultArrests.csv")
+data2014 <- read_csv("./2014AdultArrests.csv")
+data2013 <- read_csv("./2013AdultArrests.csv")
+
+data2022 <- data2022 %>%
+  mutate(`Arrest Date` = mdy(`Arrest Date`)) %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2021 <- data2021 %>%
+  mutate(`Arrest Date` = mdy(`Arrest Date`)) %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2020 <- data2020 %>%
+    mutate(`Arrest Date` = mdy(`Arrest Date`)) %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2019 <- data2019 %>%
+  mutate(`Arrest Date` = mdy(`Arrest Date`)) %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2018 <- data2018 %>%
+  mutate(`Arrest Date` = mdy(`Arrest Date`)) %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2017 <- data2017 %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2016 <- data2016 %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2015 <- data2015 %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2014 <- data2014 %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+data2013 <- data2013 %>%
+  select("Arrest Year", "Arrest Date", "Arrest Hour", "Arrest Category", "Offense Latitude", "Offense Longitude")
+
+dcdatatemp <- rbind(data2013, data2014, data2015, data2016, data2017, data2018, data2019, data2020, data2021, data2022)
+
+dcdata <- dcdatatemp %>%
+  mutate("MONTH" = month(`Arrest Date`)) %>%
+  mutate("DAY" = mday(`Arrest Date`)) %>%
+  mutate("DOW" = wday(`Arrest Date`)) %>%
+  rename("HOUR" = "Arrest Hour") %>%
+  rename("YEAR" = "Arrest Year") %>%
+  rename("DATE" = "Arrest Date") %>%
+  rename("OFFENSE" = "Arrest Category") %>%
+  rename("LATITUDE" = "Offense Latitude") %>%
+  rename("LONGITUDE" = "Offense Longitude") %>%
+  select("DATE","OFFENSE", "LATITUDE", "LONGITUDE", "HOUR", "YEAR", "MONTH", "DAY", "DOW")
+```
+
+## Forecast: Robbery
+
+For this forecast, my analysis is based on adults arrested for robberies in Washington, DC.
+
+```{r}
+dc.robbery <- subset(dcdata, dcdata$OFFENSE == "Robbery")
+dc.february.robbery <- subset(dc.robbery, dc.robbery$MONTH == '2')
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+crime.day <- dc.robbery %>%
+  group_by(DATE) %>%
+  summarise(COUNT = n())
+
+crime.day <- crime.day %>%
+  complete(DATE = seq.Date(min(DATE), max(DATE), by = "day")) %>%
+  mutate(WEEKDAY = lubridate::wday(DATE, label = T, week_start = 1), 
+         MONTH = lubridate::month(DATE, label = T, abbr = F),
+         WEEK = isoweek(DATE),
+         DAY = day(DATE),
+         YEAR = year(DATE))
+
+crime.day <- replace(crime.day, is.na(crime.day), 0)
+
+cleaned.day <- zoo(crime.day$COUNT, 
+    seq(from = as.Date(min(crime.day$DATE)), 
+        to = as.Date(max(crime.day$DATE)-1), by = 1))
+
+stationary.day <- diff(cleaned.day)
+arima.day <- auto.arima(stationary.day)
+  
+feb1 <- as.Date("2023-02-01")
+feb28 <- as.Date("2023-02-28")
+start.day <- as.numeric(feb1 - max(crime.day$DATE))
+end.day <- as.numeric(feb28 - max(crime.day$DATE))
+days.day <- c(start.day:end.day)
+
+forecast00 <- forecast(arima.day, h=(days.day[1]-1))
+forecast00 <- round(sum(forecast00$upper[,2]),0)
+forecast01 <- forecast(arima.day, h=days.day[1])
+forecast01 <- round(sum(forecast01$upper[,2]),0)
+forecast02 <- forecast(arima.day, h=days.day[2])
+forecast02 <- round(sum(forecast02$upper[,2]),0)
+forecast03 <- forecast(arima.day, h=days.day[3])
+forecast03 <- round(sum(forecast03$upper[,2]),0)
+forecast04 <- forecast(arima.day, h=days.day[4])
+forecast04 <- round(sum(forecast04$upper[,2]),0)
+forecast05 <- forecast(arima.day, h=days.day[5])
+forecast05 <- round(sum(forecast05$upper[,2]),0)
+forecast06 <- forecast(arima.day, h=days.day[6])
+forecast06 <- round(sum(forecast06$upper[,2]),0)
+forecast07 <- forecast(arima.day, h=days.day[7])
+forecast07 <- round(sum(forecast07$upper[,2]),0)
+forecast08 <- forecast(arima.day, h=days.day[8])
+forecast08 <- round(sum(forecast08$upper[,2]),0)
+forecast09 <- forecast(arima.day, h=days.day[9])
+forecast09 <- round(sum(forecast09$upper[,2]),0)
+forecast10 <- forecast(arima.day, h=days.day[10])
+forecast10 <- round(sum(forecast10$upper[,2]),0)
+forecast11 <- forecast(arima.day, h=days.day[11])
+forecast11 <- round(sum(forecast11$upper[,2]),0)
+forecast12 <- forecast(arima.day, h=days.day[12])
+forecast12 <- round(sum(forecast12$upper[,2]),0)
+forecast13 <- forecast(arima.day, h=days.day[13])
+forecast13 <- round(sum(forecast13$upper[,2]),0)
+forecast14 <- forecast(arima.day, h=days.day[14])
+forecast14 <- round(sum(forecast14$upper[,2]),0)
+forecast15 <- forecast(arima.day, h=days.day[15])
+forecast15 <- round(sum(forecast15$upper[,2]),0)
+forecast16 <- forecast(arima.day, h=days.day[16])
+forecast16 <- round(sum(forecast16$upper[,2]),0)
+forecast17 <- forecast(arima.day, h=days.day[17])
+forecast17 <- round(sum(forecast17$upper[,2]),0)
+forecast18 <- forecast(arima.day, h=days.day[18])
+forecast18 <- round(sum(forecast18$upper[,2]),0)
+forecast19 <- forecast(arima.day, h=days.day[19])
+forecast19 <- round(sum(forecast19$upper[,2]),0)
+forecast20 <- forecast(arima.day, h=days.day[20])
+forecast20 <- round(sum(forecast20$upper[,2]),0)
+forecast21 <- forecast(arima.day, h=days.day[21])
+forecast21 <- round(sum(forecast21$upper[,2]),0)
+forecast22 <- forecast(arima.day, h=days.day[22])
+forecast22 <- round(sum(forecast22$upper[,2]),0)
+forecast23 <- forecast(arima.day, h=days.day[23])
+forecast23 <- round(sum(forecast23$upper[,2]),0)
+forecast24 <- forecast(arima.day, h=days.day[24])
+forecast24 <- round(sum(forecast24$upper[,2]),0)
+forecast25 <- forecast(arima.day, h=days.day[25])
+forecast25 <- round(sum(forecast25$upper[,2]),0)
+forecast26 <- forecast(arima.day, h=days.day[26])
+forecast26 <- round(sum(forecast26$upper[,2]),0)
+forecast27 <- forecast(arima.day, h=days.day[27])
+forecast27 <- round(sum(forecast27$upper[,2]),0)
+forecast28 <- forecast(arima.day, h=days.day[28])
+forecast28 <- round(sum(forecast28$upper[,2]),0)
+
+forecast.day <- c(forecast00, forecast01, forecast02, forecast03, forecast04, forecast05, forecast06, forecast07, forecast08, forecast09, forecast10, forecast11, forecast12, forecast13, forecast14, forecast15, forecast16, forecast17, forecast18, forecast19, forecast20, forecast21, forecast22, forecast23, forecast24, forecast25, forecast26, forecast27, forecast28)
+  
+forecasts.tmp <- data.frame(c(start.day-1,days.day))
+colnames(forecasts.tmp) <- "DAY"
+forecasts.tmp$ID <- seq.int(nrow(forecasts.tmp))
+forecasts.tmp$DATE <- forecasts.tmp$DAY + max(crime.day$DATE)
+forecasts.tmp$TOTAL <- forecast.day
+forecasts.day <- subset(forecasts.tmp, forecasts.tmp$ID > 1)
+forecasts.day$ID <- seq.int(nrow(forecasts.day))
+forecasts.tmp <- forecasts.tmp[c(2,4)]
+names(forecasts.tmp) <- c("ID", "YESTERDAY")
+forecasts.day <- forecasts.day %>% left_join(forecasts.tmp, by = "ID")
+
+forecasts.day$TODAY <- forecasts.day$TOTAL - forecasts.day$YESTERDAY
+```
+
+#### Bar Graph for February 2023 crimes per day
+
+```{r, echo=FALSE}
+ggplot(forecasts.day, aes(DATE, TODAY)) +
+  geom_bar(stat="identity") +
+  theme_classic() +
+  labs(
+    x = "Date",
+    y = "Expected Crime Count"
+  ) +
+  theme(axis.text.x = element_text(angle=90))
+```
+
+#### Temporal topology for all prior Februaries, by day and hour
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+crime.year.day <- dc.february.robbery %>%
+  group_by(YEAR, DOW, HOUR) %>%
+  summarise(COUNT = n())
+
+crime.year.day <- subset(crime.year.day, !is.na(crime.year.day$HOUR))
+
+ggplot(crime.year.day, aes(HOUR, DOW, fill = COUNT)) +
+  geom_tile() +
+  scale_fill_gradient(low = "yellow", high = "red") +
+  theme(legend.position = "none") +
+  coord_fixed() +
+  geom_tile(color="white", lwd=0.5, linetype=1) +
+  scale_y_discrete(limits = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")) +
+  scale_x_continuous("HOUR", labels = as.character(crime.year.day$HOUR), breaks = crime.year.day$HOUR) +
+  theme(axis.text.x = element_text(angle=90, size=7)) +
+  theme(axis.text.y = element_text(size=7)) +
+  facet_wrap(~YEAR, nrow=5)
+```
+
+#### Hotspot map for all prior Februaries
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+dc.roads <- roads("DC", "District of Columbia")
+dc.roads.major <- dc.roads %>%  filter(RTTYP %in% c("I","S","U"))
+dc.outline <- county_subdivisions("DC", "District of Columbia")
+
+ggplot() + 
+  geom_sf(data = dc.outline) +
+  geom_sf(data = dc.roads.major) +
+  geom_point(aes(x = LONGITUDE, y = LATITUDE), data = dc.february.robbery, alpha = 0.6, size = 0.5) + 
+  theme(legend.position="bottom") +
+  theme_void() +
+  facet_wrap(~YEAR, nrow=4)
+```
+
+#### Analysis
+The daily forecast for expected robberies by adults in February 2023 is relatively consistent. There is a pattern in which there are 2 to 3 days in a row with 3 expected robberies, followed by a 1 day increase with 4 robberies. There is a significant decrease in activity over time, in which there used to be high levels of activity from 2013 to 2016, but since 2017 there were decreasingly low levels of activity during fewer hours every day. Activity has occurred on all days of the week since 2013, except for Sundays and Mondays in 2021. There is significant variation over time in what days have the most frequently occurring robberies, resulting in no distinct pattern. Activity has occurred at all 24 hours at some point from 2013 to 2022, although hours of activity vary by year. 2019 has greater activity from midnight to noon, 2016 and 2020 have greater activity from noon to midnight, 2021 has greater activity in the middle of the day, and the rest of the years have a relatively even spread of activity throughout the entire day. Throughout all ten years, activity predominantly occurred in the eastern half of DC, with limited activity in northwest DC and a cold spot in southwest DC. There is a hot spot in southeast DC, south of the Anacostia River, but has had an overall decrease in activity there over time. For February 2023, it is feasible for robberies to predominantly occur in southeast DC with limited activity occurring on all days of the week and spread out evenly across all 24 hours.
