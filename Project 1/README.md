@@ -4,8 +4,7 @@
 Make a graph using Washington, DC crime data.
 
 ## DATA
-This project uses real live Washington, D.C. crime data.
-Dataset location: [Open Data DC](https://opendata.dc.gov/)
+This project uses real live Washington, D.C. crime data from [Open Data DC](https://opendata.dc.gov/).
 
 ## INSTRUCTIONS
 See the full project instructions in the accompanying document: [Project 1 Instructions](instructions/Project1_Instructions.pdf)
