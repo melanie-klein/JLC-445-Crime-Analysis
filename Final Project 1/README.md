@@ -10,4 +10,4 @@ https://www.policedatainitiative.org/datasets/
 See the full project instructions in the accompanying document: [Final Project 1 Instructions](instructions)
 
 ## OUTPUT
-To view the results, open the [PDF file](outputs/Project7.) located in the `outputs/` folder.
+To view the results, open the [PDF file](outputs/FinalProject1.) located in the `outputs/` folder.
