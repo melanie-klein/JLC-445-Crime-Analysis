@@ -4,7 +4,7 @@
 Perform Tactical crime analysis work on new data.
 
 ## DATA
-[Serial Crime Dataset](https://docs.google.com/spreadsheets/d/1hLAICgp0BNmGjyldhZMZ84N33Za2O9RdVvgKAu4yHjQ/edit?gid=1324687445#gid=1324687445)
+[Serial Crime Dataset](data/SerialCrimeDataset.csv)
 
 ## INSTRUCTIONS
 See the full project instructions in the accompanying document: [Final Project 2 Instructions](instructions)
