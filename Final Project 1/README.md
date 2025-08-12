@@ -4,7 +4,7 @@
 Perform strategic crime analysis work on new data.
 
 ## DATA
-[MPD Adult Arrests (2013-2022)](https://mpdc.dc.gov/publication/mpd-adult-arrests-2013-2024)
+[MPD Adult Arrests (2013-2022)](https://mpdc.dc.gov/publication/mpd-adult-arrests-2013-2024) downloaded [here](Data)
 
 ## INSTRUCTIONS
 See the full project instructions in the accompanying document: [Final Project 1 Instructions](instructions)
