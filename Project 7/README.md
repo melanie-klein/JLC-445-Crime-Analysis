@@ -10,4 +10,4 @@ Build a tactical crime series bulletin that includes a future event prediction a
 See the full project instructions in the accompanying document: [Project 7 Instructions](instructions/Project7_Instructions.pdf)
 
 ## OUTPUT
-To view the results, open the [PDF file and CSV file](outputs/Project7.) located in the `outputs/` folder.
+To view the results, open the [PDF file and CSV file](outputs) located in the `outputs/` folder.
