@@ -10,4 +10,4 @@ Analyze when the next event in a crime series will occur.
 See the full project instructions in the accompanying document: [Project 6 Instructions](instructions/Project6_Instructions.pdf)
 
 ## OUTPUT
-To view the results, open the [PDF file](outputs) located in the `outputs/` folder.
+To view the results, open the [PDF file](outputs/Project6) located in the `outputs/` folder.
