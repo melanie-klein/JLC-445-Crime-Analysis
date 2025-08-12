@@ -32,4 +32,4 @@ Each project folder is organized into the following (where applicable):
 - `instructions/` — Project instructions in PDF format  
 - `data/` — Dataset(s) used for analysis  
 - `src/` — Source code files (e.g., R Markdown, scripts)  
-- `outputs/` — Generated output files (e.g., HTML, PDF reports, CSV files)
+- `outputs/` — Generated output files (e.g., HTML, PDF reports, XLSX file)
