@@ -10,4 +10,4 @@ Identify a crime series.
 See the full project instructions in the accompanying document: [Project 4 Instructions](instructions/Project4_Instructions.pdf)
 
 ## OUTPUT
-To view the results, open the [PDF file and CSV file](outputs/Project4.) located in the `outputs/` folder.
+To view the results, open the [PDF file and CSV file](outputs) located in the `outputs/` folder.
