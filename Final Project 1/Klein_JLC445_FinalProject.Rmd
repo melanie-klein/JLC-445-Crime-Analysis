@@ -1,5 +1,5 @@
 ---
-title: "JLC455_FinalProject"
+title: "JLC-455 Crime Analysis FinalProject"
 author: "Melanie Klein"
 date: "`r Sys.Date()`"
 output: html_document
