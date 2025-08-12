@@ -4,8 +4,7 @@
 Forecast future crime for specific types and shifts in Washington, D.C. by month, for the remainder of calendar year 2025 (April-December).
 
 ## DATA
-This project uses real live Washington, D.C. crime data.
-Dataset location: [Open Data DC](https://opendata.dc.gov/)
+This project uses real live Washington, D.C. crime data from [Open Data DC](https://opendata.dc.gov/).
 
 ## INSTRUCTIONS
 See the full project instructions in the accompanying document: [Project 3 Instructions](instructions/Project3_Instructions.pdf)
