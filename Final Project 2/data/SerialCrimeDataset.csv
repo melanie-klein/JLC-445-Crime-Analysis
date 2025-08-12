@@ -1,0 +1,521 @@
+ID,Crime,Date,Time,Suspect Gender,Suspect Race,Victim Count,Victim Gender,Victim Age,Weapon Type,Location,Address,City,County,State,Latitude,Longitude
+20,Murder,12/3/1978,UNK,Male,White,1,Male,23,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+23,Carjacking,4/7/2023,1115,Male,UNK,1,UNK,UNK,Firearm,Street,4203 Jenifer St NW,Washington,Washington,District of Columbia,38.9594005,-77.082309
+75,Sexual Assault,9/20/2005,2230,Male,Black,2,Female,UNK,Handgun,Park,3100 W Vineard Rd.,Phoenix,Maricopa,Arizona,33.3835661,-112.1289334
+110,Murder,7/29/1989,UNK,Male,UNK,1,Female,59,UNK,Genessee River,2650 Lake Ave,Rochester,UNK,New York,43.2141173,-77.620461
+115,Murder,1/1/1996,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+142,Assault,10/23/1976,0230,Male,White,2,"Male, Female","20, 19",Firearm,Park,29th Ave.& 157th St,Queens,UNK,New York,40.7704,-73.8073
+180,Murder,1/1/1996,UNK,UNK,UNK,1,Female,25,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+183,Murder,1/1/1987,UNK,UNK,UNK,1,Female,24,UNK,UNK,UNK,Monroe,UNK,Louisiana,32.5093,-92.1193
+188,Murder,5/18/1980,UNK,Male,Black,1,Male,14,UNK,Bar outside the Georgia Department of Offender Rehabilitation,247 Flat Shoals Avenue SE ,Atlanta,UNK,Georgia,33.74689,-84.35001
+193,Murder,9/2/1972,UNK,Male,UNK,1,Female,8,UNK,Court Street Bridge,US-11,Watertown,UNK,New York,43.9809531,-75.916158
+289,Murder,1/1/1984,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Tampa Bay,UNK,Florida,27.7634,-82.5437
+299,Murder,7/17/1889,0040,Male,White,1,Female,UNK,Knife,Castle Alley,"Castle Alley, Whitechapel",London,UNK,United Kingdom,51.5159178,-0.075858
+303,Murder,9/21/2002,0015,Male,UNK,1,Male,41,Firearm,Retail,2021 Martin Luther King Jr SW,Atlanta,UNK,Georgia,33.7501,-84.4542
+309,Sexual Assault,8/6/2005,2145,Male,Black,3,Female,13-19,Handgun,Church,7202 S 48th St.,Phoenix,Maricopa,Arizona,33.3811476,-111.9810331
+340,Murder,3/11/1980,UNK,Male,Black,1,Male,11,Blunt Force,Unamed wooded area,Plummer Rd SW,Atlanta,UNK,Georgia,33.70937,-84.58236
+376,Robbery,12/13/2005,1600,Male,Black,1,UNK,UNK,Handgun,UNK,700 E South Mountain Ave.,Phoenix,Maricopa,Arizona,33.3706441,-112.0681607
+388,Murder,12/28/1980,UNK,Male,White,1,Female,17,Firearm,Castle Rock State Park,15451 CA-35,Los Gatos,UNK,California,37.2321,-122.098
+429,Murder,12/25/1892,UNK,Male,White,1,Female,8,UNK,World's Fair Hotel,612 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+444,Murder,UNK,UNK,Male,Black,1,UNK,UNK,UNK,Candlers Mountain,936 Camp Hydaway Rd,Lynchburg,UNK,Virginia,37.32831,-79.15771
+468,Sexual Assault,12/21/1980,UNK,Male,White,1,Female,25,UNK,Restroom,UNK,Seattle,UNK,Washington,47.608013,-122.335167
+484,"Murder, Robbery",5/9/1997,UNK,Male,White,1,Male,45,Firearm,UNK,UNK,Pennsville Township,UNK,New Jersey,UNK,UNK
+503,Murder,5/24/1981,UNK,Male,Black,1,Male,23,Hands,I-285 Bridge,Jackson Parkway and Gordon Street,Atlanta,UNK,Georgia,33.727306,-84.424012
+534,Aggravated Assault,10/4/2002,1430,Male,UNK,1,Female,43,Firearm,Retail,"Michaels, Spotsylvania",Fredericksburg,UNK,Virginia,38.295,-77.5142
+547,Murder,12/11/1978,UNK,Male,White,1,Male,15,UNK,River,Des Plaines River,Channahon,Will,Illinois,41.391697,-88.2671512
+557,Murder,10/3/2002,0812,Male,UNK,1,Male,54,Firearm,Gas Station,Aspen Hill Rd & Connecticut Ave,Aspen Hill,UNK,Maryland,39.0807,-77.0799
+568,Assault,12/31/1981,UNK,Male,White,1,Male,UNK,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+583,Murder,9/21/2002,1519,Male,UNK,1,Female,52,Firearm,Liquor Store,UNK,Montgomery,UNK,Alabama,32.344,-86.3861
+591,Murder,11/28/1980,UNK,Male,White,2,Female,"22, 25",Firearm,Point Reyes National Seashore Park,UNK,Point Reyes Station,UNK,California,38.0692,-122.8076
+596,"Murder, Rape",Jul-75,Night,Male,White,1,Female,21,Firearm,UNK,UNK,Walla Walla,UNK,Washington,46.06 N,118.34 W
+598,Murder,12/20/2022,UNK,UNK,UNK,1,UNK,25,Drowning,Chicago River,UNK,Chicago,UNK,Illinois,41.889,-87.623
+604,Murder,9/23/2002,1830,Male,UNK,1,Female,45,Firearm,Beauty Depot,4065 Florida St,Baton Rouge,UNK,Louisiana,30.451,-91.1508
+608,"Murder, Sexual Assault",6/14/1962,1730,Male,White,1,Female,55,Hands,Apartment,77 Gainsbourough St,Boston,UNK,Massachusetts,42.34232,-71.08793
+614,Robbery,10/12/2018,1640,Male,Black,0,N/A,N/A,Note,PNC Bank,4125 Saint Germaine Drive,UNK,UNK,Virginia,38.8653406,-77.4656647
+662,Murder,5/14/1976,UNK,Male,White,1,Male,15,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+663,Murder,1/1/1984,UNK,UNK,UNK,1,Female,28,UNK,UNK,UNK,West Memphis,UNK,Arkansas,35.1465,-90.1848
+664,Murder,1/1/1987,UNK,UNK,UNK,1,Female,50,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+665,Murder,3/12/1974,UNK,Male,UNK,1,Female,19,UNK,Evergreen State College,UNK,UNK,UNK,Washington,47.0730730,-122.9761859
+667,Murder,12/25/1891,UNK,Male,White,1,Female,UNK,UNK,World's Fair Hotel,611 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+668,Murder,10/21/1979,UNK,Male,Black,1,Male,9,Hands,E. P. Johnson Elementary School,Summerhill Neighborhood,UNK,UNK,Georgia,33.7379,-84.3844
+679,Murder,1/1/1987,UNK,UNK,UNK,1,Female,19,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+694,Murder,11/1/1977,UNK,Male,White,1,Male,18,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+700,Murder,1/1/1984,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Savannah,UNK,Georgia,32.0809,-81.0912
+747,Murder,7/25/1969,UNK,Male,UNK,1,Male,34,UNK,Single Family Residence,964 Old Topanga Canyon Rd,Los Angeles,UNK,California,34.1024822,-118.6210882
+776,Murder,6/13/1976,UNK,Male,White,1,Male,16,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+801,Murder,7/7/1991,UNK,Male,White,1,Male,23,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+807,"Murder, Rape, Robbery",8/8/1985,UNK,Male,Hispanic,2,"Male, Female","31, 27",UNK,Home,UNK,Diamond Bar,UNK,California,34.006613,-117.8407
+824,Attempted Robbery,1/1/2008,2130,Male,White,1,Female,24,UNK,Bank of America ATM,111 E E Butler Pkwy NE,Gainesville,UNK,Georgia,34.302658,-83.822841
+827,Murder,3/6/1905,UNK,Male,White,1,Female,37,UNK,World's Fair Hotel,615 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+855,Murder,3/4/1980,UNK,Male,Black,1,Female,12,Hands,Vacant lot on Campbellton Road,Campbellton Rd SW,Atlanta,UNK,Georgia,33.7021,-84.4658
+883,Murder,7/4/1975,UNK,Male,UNK,1,Female,23,UNK,Gas Station,UNK,Layton,UNK,Utah,41.0769356,-112.0025847
+893,Falsely Impersonating an Officer,2/1/2018,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+910,Robbery,10/27/2018,1130,Male,Black,0,N/A,N/A,Note,Banko Of America,8096 Rolling road,Springfield,UNK,Virginia,38.739024,-77.2117334
+928,Assault,4/1/2016,2100,UNK,UNK,1,Male,21,Firearm,Street,5500 W Turney Ave,Phoenix,Maricopa,Arizona,33.500751,-112.177792
+975,Murder,1/1/1984,UNK,UNK,UNK,1,Female,25,UNK,Hilly area not far from I-75,UNK,Cincinnati,UNK,Ohio,39.1031,-84.512
+1008,Murder,2/15/2006,UNK,"Male, Female",White,1,Male,27,"Injection, Hands",UNK,Lempke Street,New Baltimore,UNK,Michigan,42.68121828,-82.7369
+1035,Murder,9/8/2005,0100,Male,Black,1,Female,19,Handgun,Apartment Complex,3730 S Mill Ave.,Tempe,Maricopa,Arizona,33.3900865,-111.9424591
+1064,"Murder, Sexual Assault",10/23/1989,UNK,Male,UNK,1,Female,30,UNK,Genessee River,2650 Lake Ave,Rochester,UNK,New York,43.2141173,-77.620461
+1065,Assault,7/11/2016,UNK,UNK,UNK,2,Male,"21, 4",Firearm,Street,30th St & Sheridan St,Phoenix,Maricopa,Arizona,33.47313,-112.012888
+1093,Murder,1/1/1982,UNK,UNK,UNK,1,Female,30,UNK,Dirt road off Litte Wood exit I-10,UNK,New Orleans,UNK,Louisiana,29.9511,-90.0715
+1151,"Murder, Robbery, Sexual Assault",7/20/1985,UNK,Male,Hispanic,2,"Male, Female","32, UNK",UNK,Home,UNK,Sun Valley,UNK,California,34.219966,-118.4161
+1177,Murder,5/31/1974,UNK,Male,UNK,1,Female,22,UNK,Tavern,UNK,Burien,UNK,Washington,47.4766172,-122.3863025
+1198,Murder,4/3/2018,UNK,Female,White,1,Male,96,Insulin injection,Hospital,5 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+1208,Murder,1/1/1976,UNK,UNK,UNK,1,Female,25,UNK,UNK,UNK,Houston,UNK,Texas,29.7604,-95.3698
+1236,Murder,3/15/1975,UNK,Male,UNK,1,Female,26,UNK,UNK,UNK,Vail,UNK,Colorado,39.6334556,-106.3953651
+1237,Murder,6/30/1978,UNK,Male,White,1,Male,20,UNK,River,Illinois River near Dresden Island Lock and Dam,Channahon,UNK,Illinois,41.3979482,-88.2845503
+1263,Murder,11/2/1980,UNK,Male,Black,1,Male,9,Hands,Beside a bridge on a road by the South River (Near entrance to Lake Charlotte),Lake Charlotte Nature Preserve,Atlanta,UNK,Georgia,33.658267,-84.393987
+1273,Rape,11/19/1983,UNK,Male,Hispanic,1,Female,21,Gun,Delaware Park Statue of David Woods,UNK,UNK,UNK,UNK,42.93412578,-78.87231204
+1276,"Murder, Robbery",2/22/2020,UNK,Male,Black,1,Male,36,Firearm,Vacant Building,East of John R St,Highland Park,UNK,Michigan,42.3874125,-83.081328
+1283,Murder,4/15/1975,UNK,Male,UNK,1,Female,18,UNK,High School,UNK,Nederland,UNK,Colorado,29.9807755,-94.0137817
+1305,"Murder, Rape",May-98,Night,Male,White,1,Female,43,Firearm,UNK,2220 E 49th Ave,Spokane,UNK,Washington,47.6,-117.3
+1306,Murder,2/21/2006,UNK,"Male, Female",White,1,Male,53,Firearm,UNK,UNK,Vienna Township,UNK,Michigan,43.18023297,-83.78355709
+1314,Murder,2/1/1976,UNK,Male,UNK,1,Female,17,UNK,Single Family Residence,UNK,Salt Lake City,UNK,Utah,40.7765867,-111.9906964
+1317,"Murder, Rape",2/8/1998,Night,Male,White,1,Female,41,Firearm,UNK,Graham road,Spokane,UNK,Washington,47.6,-177.6
+1330,Murder,3/8/1977,1930,Male,White,1,Female,20,Firearm,Street,UNK,Queens,UNK,New York,40.7152,-73.8426
+1354,Murder,6/10/1974,UNK,Male,UNK,1,Female,18,UNK,University of Washington,UNK,UNK,UNK,Washington,47.6553351,-122.3057139
+1376,Falsely Impersonating an Officer,9/16/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+1387,Rape,7/8/1984,UNK,Male,Hispanic,1,Female,21,UNK,Delaware Park Statue of David Woods,UNK,UNK,UNK,UNK,42.93412578,-78.87231204
+1403,"Murder, Sexual Assault",9/8/1963,UNK,Male,White,1,Female,58,Hands,Apartment,224 Lafayette St,Salem,UNK,Massachusetts,42.51193,-70.89231
+1425,Falsely Impersonating an Officer,9/7/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,Windermere,UNK,Florida,28.49667,-81.53389
+1450,"Murder, Sexual Assault",12/5/1962,UNK,Male,White,1,Female,20,Hands,Apartment,315 Huntington Ave,Boston,UNK,Massachusetts,42.34111,-71.08778
+1515,Assault,2/1/2018,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+1536,Kidnapping,11/8/1974,UNK,Male,UNK,1,Female,18,UNK,Parking lot,UNK,Salt Lake City,UNK,Utah,40.7765867,-111.9906964
+1540,Murder,7/5/1977,UNK,Male,White,1,Male,18,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+1551,Murder,8/11/1982,UNK,Male,White,1,Female,16,UNK,Wooded lot near Military Road,Military Rd & S. 156th St.,SeaTac,UNK,Washington,UNK,UNK
+1558,Assault,6/12/2016,0300,UNK,UNK,3,Female,"33, 31, 12",Firearm,Street,6300 W Berkeley Rd,Phoenix,Maricopa,Arizona,33.468108,-112.195988
+1568,Murder,1/1/1990,UNK,UNK,UNK,1,Female,40,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+1583,Murder,8/20/1980,UNK,Male,Black,1,Male,12,Hands,Hollywood Plaza Shopping Center,Hollywood Road NW,Atlanta,UNK,Georgia,33.786726,-84.46231
+1597,"Murder, Robbery",2/20/2020,UNK,Male,Black,1,Male,41,Firearm,Next Level Custom Tee Shop,16042 E 8 mile,Detroit,UNK,Michigan,42.4498496,-82.957341
+1630,Murder,6/9/1980,UNK,Male,Black,1,Male,12,UNK,DeKalb County's Midway Receration Center in Midway Park,Midway Park,Decatur,UNK,Georgia,33.74557,-84.26416
+1639,Murder,1/1/1992,UNK,UNK,UNK,1,Female,24,UNK,Dirit road,UNK,Benton,UNK,Arkansas,34.563419,-92.586868
+1666,Murder,8/22/1982,UNK,Male,White,1,Female,31,UNK,Near Eastgate parking lot,14200 SE Eastgate Way,Bellevue,UNK,Washington,UNK,UNK
+1671,Murder,8/30/1888,0145,Male,White,1,Female,UNK,Knife,Street Corner,Mitre Square,London,UNK,United Kingdom,51.5138218,-0.0802439
+1687,"Murder, Sexual Assault",11/23/1963,UNK,Male,White,1,Female,23,Hands,Apartment,54 Essex St,Lawrence,UNK,Massachusetts,42.36784,-71.10087
+1694,Murder,7/1/1975,UNK,Male,UNK,1,Female,24,UNK,Street,UNK,Golden,UNK,Colorado,39.7434546,-105.2370151
+1701,"Murder, Assault",1/30/1977,0040,Male,White,2,"Male, Female","30, 26",Firearm,Train Station,71st Avenue & Austin St,Queens,UNK,New York,40.7194,-73.8448
+1711,Aggravated Assault,8/1/2002,1200,Male,UNK,1,Male,51,Firearm,Gas Station,UNK,Hammond,UNK,Louisiana,30.5044,-90.4925
+1742,Robbery,2/11/2019,UNK,Male,Black,0,N/A,N/A,Note,Capital One bank,3532 Columbia Pike,Arlington,UNK,Virginia,38.8750988,-77.0977482
+1744,Murder,8/7/1888,0230,Male,White,1,Female,UNK,Knife,George Yard Buildings,112 Whitechapel High St,London,UNK,United Kingdom,51.5153377,-0.0744784
+1822,Murder,5/7/1972,UNK,Male,White,1,Female,18,UNK,UNK,UNK,Alameda,UNK,California,37.76521,-122.241638
+1841,Murder,1/1/1977,UNK,UNK,UNK,1,Female,28,UNK,UNK,UNK,Charleston,UNK,South Carolina,32.7765,-79.9311
+1852,Murder,9/10/1889,0515,Male,White,1,Female,UNK,Knife,Railway Arch,"Pinchin Street, Whitechapel",London,UNK,United Kingdom,51.5115612,-0.0676582
+1858,Murder,8/9/1969,UNK,UNK,UNK,1,Male,18,UNK,Single Family Residence,10050 Cielo Dr,Los Angeles,UNK,California,34.0948181,-118.4336042
+1862,Murder,12/7/2022,UNK,UNK,UNK,1,UNK,21,Drowning,Chicago River,UNK,Chicago,UNK,Illinois,41.889,-87.623
+1866,"Murder, Robbery",2/18/2020,UNK,Male,Black,1,Male,49,Firearm,UNK,UNK,Highland Park,UNK,Michigan,42.4031172,-83.132899
+1871,Murder,8/1/1980,UNK,Male,White,1,Male,27,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+1882,"Murder, Sexual Assault",8/18/1985,UNK,Male,Hispanic,2,"Male, Female","66, 62",UNK,Home,UNK,San Francisco,UNK,California,37.719169,-122.5004
+1902,Murder,3/17/1985,UNK,Male,Hispanic,1,Female,30,UNK,On Street,UNK,Monterey Park,UNK,California,34.038951,-118.10405
+1927,Murder,12/20/1968,2310,Male,UNK,2,"Male, Female","17, 16",Firearm,Lover's Lane,Lake Herman Rd,Benicia,UNK,California,38.0950506,-122.14644
+1994,"Murder, Rape",12/7/1997,Night,Male,White,1,Female,35,Firearm,UNK,1700 block 108th st S,Tacoma,PIerce,Washington,47.1,-122.5
+2005,Murder,UNK,UNK,Female,White,1,Male,62,Poison,Boarding House,1432 F St,Sacramento,UNK,California,38.582705,-121.4872875
+2018,Murder,12/9/1977,UNK,Male,White,1,Male,20,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2100,Murder,8/5/1976,UNK,Male,White,1,Male,16,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2127,Falsely Impersonating an Officer,9/26/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+2129,Murder,4/6/1975,UNK,Male,UNK,1,Female,25,UNK,UNK,UNK,Grand Junction,UNK,Colorado,39.0856709,-108.6400469
+2136,"Murder, Sexual Assault",6/28/1962,UNK,Male,White,1,Female,85,Hands,Apartment,1435 Commonwealth Ave,Boston,UNK,Massachusetts,42.34232,-71.08793
+2139,Murder,9/2/2010,UNK,Male,UNK,1,Female,27,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+2140,Murder,9/25/1977,UNK,Male,White,1,Male,19,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2146,Murder,5/13/1976,UNK,Male,White,1,Male,14,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2171,Murder,4/19/1981,UNK,Male,Black,1,Male,15,Hands,Rockdale River Trail,3800 Daniels Bridge Rd,Stockbridge,UNK,Georgia,33.623723,-84.12589
+2174,Murder,1/1/1992,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,North Little Rock,UNK,Arkansas,34.7561,-92.2677
+2199,Murder,1/1/1970,UNK,UNK,UNK,1,Female,22,UNK,UNK,UNK,Miami,UNK,Florida,25.7617,-80.1918
+2212,"Murder, Rape",8/26/1997,Night,Male,White,1,Female,20,Firearm,UNK,1817 E. Springfield,Spokane,UNK,Washington,47.6,-117.2
+2231,"Homicide, Sexual Assault",1/18/1981,UNK,Male,White,1,Female,"20, 20",UNK,Office,UNK,Keizer,UNK,Oregon,44.990266,-123.026645
+2282,Assault,3/17/2016,2330,UNK,UNK,1,UNK,16,Firearm,Street,1100 E Moreland St,Phoenix,Maricopa,Arizona,33.461258,-112.058916
+2309,Murder,1/31/1974,UNK,Male,UNK,1,Female,21,UNK,Single Family Residence,UNK,Seattle,UNK,Washington,47.6129428,-122.48249
+2315,Murder,11/10/1980,UNK,Male,Black,1,Male,16,Blunt Force,Paces Ferry Road Bridge,Paces Mill Rd SE & Cobb Pkwy SE,Atlanta,UNK,Georgia,33.658267,-84.393987
+2323,Murder,3/1/1982,UNK,Male,White,1,Male,UNK,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+2382,Murder,10/1/1977,UNK,Male,White,1,Male,21-22,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2396,Rape,6/12/1986,UNK,Male,Hispanic,1,Female,44,Ligature,Delaware Park,UNK,UNK,UNK,UNK,42.93338437,-78.85307282
+2456,Aggravated Assault,10/2/2002,1720,Male,UNK,1,Female,UNK,Firearm,Retail,3850 Georgia Ave,Aspen Hill,UNK,Maryland,39.082,-77.0786
+2473,Murder,4/13/2023,UNK,UNK,UNK,1,UNK,46,Drowning,UNK,UNK,Chicago,UNK,Illinois,41.878,-87.630
+2486,Murder,6/3/1976,UNK,Male,White,1,Male,17,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2520,Murder,1/1/1971,UNK,UNK,UNK,1,Female,28,UNK,UNK,UNK,Homestead,UNK,Florida,25.4687,-80.4776
+2537,Murder,4/21/1973,UNK,Male,White,1,Female,59,UNK,Single family home,UNK,Santa Cruz,UNK,California,36.9741,-122.0308
+2554,Murder,6/17/2023,UNK,UNK,UNK,1,UNK,29,Drowning,UNK,UNK,Chicago,UNK,Illinois,41.878,-87.630
+2556,Murder,11/17/2009,UNK,Male,Black,1,UNK,UNK,UNK,Anchorage Farm,2246 Farm Vista Rd,Charlottesville,UNK,Virginia,37.97156,-78.61295
+2560,Murder,4/10/1988,UNK,UNK,UNK,2,"Male, Female","18, 20",Knife,Christopher Newport University,UNK,Newport News,UNK,Virginia,36.063,-76.493
+2587,Abduction,11/17/2009,2130,Male,Black,1,Female,20,UNK,John Paul Jones Arena Parking Lot,UNK,UNK,UNK,UNK,38.045982,-78.506645
+2596,Murder,1/1/1992,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+2635,Murder,9/4/1979,UNK,Male,Black,1,Male,14,UNK,Remote area,Redwine Rd & Desert Rd,Atlanta,UNK,Georgia,33.66022,-84.4932
+2642,Murder,2/6/1981,UNK,Male,Black,1,Male,12,Hands,Corporate Square Business Offices,1830 Corporate BLVD NE,Atlanta,UNK,Georgia,33.835698,-84.336002
+2646,Murder,9/29/1989,UNK,Male,UNK,1,Female,25,UNK,Lake Ave (Prostitution Strip),2 Riverside St,Rochester,UNK,New York,43.191433,-77.62968
+2648,Murder,5/12/1981,UNK,Male,Black,1,Male,17,Hands,Wooded Area near I-20,Winthrop Drive SE and Glenwood Ave SE,Atlanta,UNK,Georgia,33.739861,-84.329495
+2686,Attempted Robbery,1/2/2008,UNK,Male,White,1,Female,24,UNK,Bank ATM,UNK,Canton,UNK,Georgia,UNK,UNK
+2692,Murder,1/1/1979,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Homestead,UNK,Florida,25.4687,-80.4776
+2717,Murder,8/31/1888,0300,Male,White,1,Female,UNK,Knife,Buck's Row,Durward St,London,UNK,United Kingdom,51.5199097,-0.0631878
+2740,"Murder, Sexual Assault",6/30/1962,1930,Male,White,1,Female,68,Hands,Apartment,1940 Commonwealth Ave,Boston,UNK,Massachusetts,42.33852,-71.15565
+2764,Murder,1/20/1977,UNK,Male,White,1,Male,19,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2776,Murder,1/1/1977,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Plant City,UNK,Florida,28.0186,-82.1129
+2778,Murder,10/2/1974,UNK,Male,UNK,1,Female,16,UNK,UNK,UNK,Salt Lake City,UNK,Utah,40.7765867,-111.9906964
+2782,Murder,4/17/1974,UNK,Male,UNK,1,Female,19,UNK,Central Washington State College,UNK,UNK,UNK,Washington,47.0073154,-120.5384745
+2792,Murder,10/10/1980,UNK,Male,Black,1,Male,10,UNK,Entrance to Longview Trailer Park,Norman Berry Dr,Atlanta,UNK,Georgia,33.681627,-84.434156
+2809,Murder,9/13/2014,UNK,Male,Black,1,UNK,UNK,UNK,Abandoned Home,3193 Old Lynchburg Rd,North Garden,UNK,Virginia,38.00639,-78.52091
+2832,Murder,7/19/1991,UNK,Male,White,1,Male,25,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+2841,Murder,8/9/1969,UNK,UNK,UNK,1,Male,35,UNK,Single Family Residence,10050 Cielo Dr,Los Angeles,UNK,California,34.0948181,-118.4336042
+2874,Murder,8/1/1973,UNK,Male,UNK,1,Female,24,UNK,Single Family Residence,UNK,Eugene,UNK,Oregon,44.0606439,-123.1927618
+2909,Murder,9/15/1977,UNK,Male,White,1,Male,18,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+2921,Murder,7/2/1985,UNK,Male,Hispanic,1,Female,75,UNK,Home,UNK,Arcadia,UNK,California,34.15482,-118.02201
+2946,Murder,5/25/1974,UNK,Male,UNK,1,Female,15,UNK,Single Family Residence,UNK,Redmond,UNK,Washington,47.6720650,-122.1358009
+2950,Murder,9/2/1990,UNK,Male,White,1,Male,22,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+2990,Murder,UNK,UNK,Female,White,1,Female,78,Poison,Boarding House,1434 F St,Sacramento,UNK,California,38.582705,-121.4872875
+2991,Robbery,12/4/2007,UNK,Male,White,1,Female,46,UNK,Hancock Whitney ATM,101 N Monroe St,Tallahassee,UNK,Florida,30.438631,-84.280992
+2992,"Murder, Burglary",3/27/1985,UNK,Male,Hispanic,2,"Male, Female","64, 44",UNK,Home,UNK,Whittier,UNK,California,33.946746,-117.96664
+2994,"Murder, Sexual Assault",5/14/1985,UNK,Male,Hispanic,2,"Male, Female","66, 56",UNK,Home,UNK,Monterey Park,UNK,California,34.038951,-118.10405
+2996,Falsely Impersonating an Officer,10/12/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+3018,Robbery,10/29/2018,1354,Male,Black,0,N/A,N/A,Note,Eagle Bank,277 A.Washington street,Alexandria,UNK,Virginia,38.8029984,-77.0498218
+3035,Murder,6/29/2006,2130,Male,Black,1,Female,37,Handgun,Carwash,2924 E Thomas Rd.,Phoenix,Maricopa,Arizona,33.4808838,-112.0210187
+3072,Murder,5/25/1975,UNK,Male,White,1,Male,16,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+3090,Murder,1/1/1982,UNK,UNK,UNK,1,Female,20,UNK,UNK,UNK,Willoughby Hills,UNK,Ohio,41.5876,-81.4395
+3238,Murder,11/5/1989,UNK,Male,UNK,1,Female,22,UNK,Lake Ave (Prostitution Strip),1490 Lake Ave,Rochester,UNK,New York,43.1942462,-77.630355
+3254,Murder,1/1/1992,UNK,UNK,UNK,1,Female,24,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+3271,Murder,11/15/1989,UNK,Male,UNK,1,Female,30,UNK,In Random Backyard,308 River Heights Cir,Rochester,UNK,New York,43.2087313,-76.935668
+3296,Murder,3/25/2018,UNK,Female,White,1,Male,81,Insulin injection,Hospital,4 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+3330,Attempted Robbery,UNK,UNK,Male,White,1,Female,46,UNK,Hancock Whitney ATM,101 N Monroe St,Tallahassee,UNK,Florida,30.438631,-84.280992
+3360,Murder,6/22/1980,UNK,Male,Black,1,Female,7,UNK,Wooded area on the end of Verbena Street,Intersection of Verbena Street and Sewanne Ave NW,Atlanta,UNK,Georgia,33.757257,-84.428851
+3375,"Murder, Sexual Assault",4/10/1984,UNK,Male,Hispanic,1,Female,9,UNK,Hotel,UNK,San Francisco,UNK,California,37.719169,-122.5004
+3383,Murder,6/4/1963,UNK,Male,UNK,2,"Male, Female","18, 17",Firearm,Beach,UNK,Santa Barbara,UNK,California,34.4707726,-120.23639
+3394,Attempted Carjacking,4/18/2023,1115,Male,UNK,1,UNK,UNK,Firearm,Street,2502 Queens Chapel Rd,Hyattsville,,Maryland,38.9484719,76.9710591
+3395,"Murder, Robbery",5/4/1997,UNK,Male,White,1,Male,72,Knife,UNK,UNK,Chicago,UNK,Illinois,UNK,UNK
+3423,Assault,4/19/2016,0430,UNK,UNK,1,Female,55,Firearm,Street,500 N 32nd Pl,Phoenix,Maricopa,Arizona,33.454712,-112.01292
+3437,Murder,10/3/2002,0741,Male,UNK,1,Male,39,Firearm,Auto Mall,11411 Rockville Pike,Rockville,UNK,Maryland,39.0439,-77.1104
+3470,Murder,1/16/1988,UNK,Male,White,1,Male,14,UNK,South of Milwaukee,2357 South 57th St.,West Allis,UNK,Wisconsin,43.0016092,-87.9863977
+3471,"Murder, Sexual Assault",3/6/1963,UNK,Male,White,1,Female,69,Hands,Apartment,319 Park Ave,Lawrence,UNK,Massachusetts,42.27988,-71.14721
+3484,Robbery,5/14/2018,2125,Male,Black,0,N/A,N/A,Note,Burlington Coat Factory,3200 Donnell Drive,Washington,UNK,District of Colombia,38.8470633,-76.8847827
+3500,Murder,4/17/1982,UNK,Male,White,1,Female,15,UNK,Near the intersection of S 200th St & 24th Ave S,S. 200th St. & 24th Ave S.,Des Moines,UNK,Washington,UNK,UNK
+3502,Murder,10/22/2007,UNK,Male,White,1,Male,80,UNK,National forest,Old Murphy Road,UNK,UNK,North Carolina,35.226276,-83.392208
+3503,Murder,6/1/1892,UNK,Male,White,1,Female,24,UNK,World's Fair Hotel,617 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+3505,Robbery,10/22/2007,1935,Male,White,1,Male,80,UNK,Peoples Bank ATM,105 Five Points Dr,Ducktown,UNK,Tennessee,35.035618,-84.373263
+3509,Carjacking,4/23/2023,2055,Male,UNK,1,UNK,UNK,Firearm,Street,5700 2nd St NE,Washington,Washington,District of Columbia,38.9587275,-77.003837
+3515,Assault,12/1/1980,UNK,Male,White,1,Male,UNK,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+3531,Murder,4/7/1991,UNK,Male,White,1,Male,19,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+3548,Murder,6/21/2022,UNK,UNK,UNK,1,UNK,34,Drowning,Chicago River,UNK,Chicago,UNK,Illinois,41.889,-87.623
+3549,"Murder, Kidnapping",6/23/1966,UNK,Male,UNK,2,Female,UNK,UNK,Single Family Residence,UNK,Seattle,UNK,Washington,47.6129428,-122.48249
+3578,Murder,12/15/1989,UNK,Male,UNK,1,Female,32,UNK,Woods,361 Boxart St,Rochester,UNK,New York,43.2087313,-76.935668
+3588,Murder,1/8/1973,UNK,Male,White,1,Female,19,UNK,Cabrillo College,UNK,UNK,UNK,California,36.9886,-121.9246
+3590,"Murder, Assault",7/29/1976,0110,Male,White,2,Female,"18, 19",Firearm,Apartment complex,2860 Buhre Ave.,Bronx,UNK,New York,40.847,-73.8339
+3640,Murder,10/11/1969,2155,Male,UNK,2,"Male, Female","29, 17",Firearm,Presidio Heights,UNK,San Francisco,UNK,California,37.7887003,-122.45754
+3724,Murder,7/1/1960,UNK,Male,White,2,"Male, Female",UNK,Firearm,Deserted road,UNK,UNK,UNK,California,UNK,UNK
+3802,Murder,11/8/1975,UNK,Male,UNK,1,Female,17,UNK,High School,UNK,Bountiful,UNK,Utah,40.8817611,-111.8737632
+3883,Murder,10/12/1986,UNK,UNK,UNK,2,Female,"27, 21",Knife,Cheatham Annex Overlook,UNK,Williamsburg,UNK,Virginia,37.27083,-76.706944
+3888,Murder,10/1/1976,UNK,Male,White,1,Male,19,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+3894,"Murder, Sexual Assault",5/6/1963,UNK,Male,White,1,Female,23,Hands,Apartment,4 University Rd,Cambridge,UNK,Massachusetts,42.37296,-71.12297
+3903,Murder,3/15/2006,2100,Male,Black,2,Female,20,Handgun,Yoshi's restaurant,4102 N 24th St.,Phoenix,Maricopa,Arizona,33.4953806,-112.0331517
+3937,Missing Person,7/4/1990,UNK,Female,White,1,Male,65,UNK,UNK,UNK,Orange Springs,UNK,Florida,29.5060995,-81.9541212
+3949,Murder,11/11/1989,UNK,Male,UNK,1,Female,22,UNK,Lake Ave (Prostitution Strip),1108 Lake Ave,Rochester,UNK,New York,43.1861738,-77.632027
+3950,Murder,7/28/1979,UNK,Male,Black,1,Male,14,Firearm,Unamed wooded area,Niskey Lake Rd SW,Atlanta,UNK,Georgia,33.69213,-84.52783
+3984,Murder,7/9/2007,UNK,Male,UNK,1,Female,25,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+3988,Robbery,3/1/2018,1350,Male,Black,0,N/A,N/A,Note,Capital One bank,3499 South Jefferson Street,Falls Church,UNK,Virginia,38.8492222,-77.1195227
+4015,Robbery,12/20/2018,0945,Male,Black,0,N/A,N/A,Note,BB&T Bank,5203 Franconia Road,Alexandria,UNK,Virginia,38.7853263,-77.1256328
+4041,Burglary,10/1/1970,UNK,Male,UNK,1,UNK,UNK,UNK,UNK,UNK,Clayton,UNK,New York,UNK,UNK
+4085,Murder,1/3/1981,UNK,Male,Black,1,Male,14,Hands,Wooded area of Vandiver Road,Vandiver Rd SE,Atlanta,UNK,Georgia,33.68274,-84.576036
+4115,"Murder, Sexual Assault",8/21/1962,UNK,Male,White,1,Female,67,Hands,Apartment,435 Columbia Rd,Boston,UNK,Massachusetts,42.31257,-71.06812
+4133,Murder,7/12/2009,UNK,Male,UNK,1,Female,24,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+4135,Murder,1/12/1976,UNK,Male,UNK,1,Female,23,UNK,Wildwood Inn,UNK,Aspen,UNK,Colorado,39.2065432,-106.9563329
+4162,Rape,7/14/1986,UNK,Male,Hispanic,1,Female,17,Ligature,Frontier Central High School,UNK,UNK,UNK,UNK,42.76696353,-78.83183489
+4169,Murder,1/1/1977,UNK,UNK,UNK,1,Female,30,UNK,UNK,UNK,Macon,UNK,Georgia,32.8407,-83.6324
+4182,Resisting Arrest,9/7/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,Windermere,UNK,Florida,28.49667,-81.53389
+4197,Murder,8/9/1969,UNK,UNK,UNK,1,Female,25,UNK,Single Family Residence,10050 Cielo Dr,Los Angeles,UNK,California,34.0948181,-118.4336042
+4223,Murder,3/7/1905,UNK,Male,White,1,Female,UNK,UNK,World's Fair Hotel,618 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+4258,Murder,3/15/1977,UNK,Male,White,1,Male,20,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+4285,"Murder, Rape",9/29/1990,UNK,Male,Hispanic,1,Female,22,Hands,Ellicott Creek Bike Path,UNK,UNK,UNK,UNK,42.99631291,-78.75898459
+4292,Murder,4/1/1891,UNK,Male,White,1,Male,UNK,UNK,World's Fair Hotel,620 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+4346,Rape,6/10/1988,UNK,Male,Hispanic,1,Female,16,UNK,Junkyard in Buffalo,UNK,UNK,UNK,UNK,UNK,UNK
+4366,Murder,8/30/1888,0100,Male,White,1,Female,UNK,Knife,Dutfield's Yard,40 Henriques St,London,UNK,United Kingdom,51.5130249,-0.0675218
+4400,Robbery,1/11/2018,1026,Male,Black,0,N/A,N/A,Note,Capital One bank,85 H street Northwest,Washington,UNK,District of Colombia,38.9000104,-77.0208486
+4424,Murder,1/1/1982,UNK,UNK,UNK,1,Female,33,UNK,UNK,UNK,New Orleans,UNK,Louisiana,29.9511,-90.0715
+4471,Abduction,9/7/2003,UNK,Male,Black,1,Female,31,UNK,UNK,800 block of 31st Street,UNK,UNK,Virginia,36.98661,-76.41954
+4478,Murder,1/1/1977,UNK,UNK,UNK,1,Female,35,UNK,UNK,UNK,Pascagoula,UNK,Mississippi,30.3658,-88.5561
+4545,Murder,12/11/1976,UNK,Male,White,1,Male,17,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+4554,Murder,8/8/1888,0530,Male,White,1,Female,UNK,Knife,Backyard,29 Hanbury Street,Spitalfield,UNK,United Kingdom,51.5204627,-0.0747019
+4555,Murder,1/1/1992,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+4563,Murder,1/30/2020,UNK,Male,Black,1,Female,48,Firearm,Apartment,500 block of Beechwood,River Rouge,UNK,Michigan,42.2658719,-83.151238
+4581,Murder,12/12/2005,1855,Male,Black,1,Female,39,Handgun,Fast food parking lot,6005 S 40th St.,Phoenix,Maricopa,Arizona,33.391484,-111.9963101
+4622,Murder,5/22/2023,UNK,UNK,UNK,1,UNK,26,Drowning,UNK,UNK,Wilmette,UNK,Illinois,42.073,-87.723
+4634,"Sexual Assault, Assault",5/29/1985,UNK,Male,Hispanic,2,Female,"83, 81",UNK,Home,UNK,Monrovia,UNK,California,34.130208,-117.99484
+4671,Assault,6/10/2016,2130,UNK,UNK,1,Male,19,Firearm,Street,6500 W Coronado Rd,Phoenix,Maricopa,Arizona,33.467392,-112.199764
+4697,Murder,12/30/1978,UNK,Male,White,1,Male,14,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+4700,Murder,5/24/1990,UNK,Male,White,1,Male,27,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+4786,Murder,1/4/2008,UNK,Male,White,1,Female,24,UNK,Dawson Forest,UNK,Dawsonville,UNK,Georgia,34.395541,-84.192848
+4794,Murder,8/11/1982,UNK,Male,White,1,Female,16,UNK,Wooded lot near Military Road,Military Rd & S. 156th St.,SeaTac,UNK,Washington,UNK,UNK
+4808,Murder,10/3/2002,2120,Male,UNK,1,Male,72,Firearm,Street,Georgia Ave & Kalmia Rd,Washington,UNK,District of Colombia,38.984,-77.0266
+4817,Carjacking,4/9/2023,1035,Male,UNK,1,UNK,UNK,Firearm,Street,6903 Highview Ter,Hyattsville,,Maryland,38.9753444,76.9639087
+4846,Murder,1/1/1982,UNK,UNK,UNK,1,Female,30,UNK,UNK,UNK,New Orleans,UNK,Louisiana,29.9511,-90.0715
+4903,Robbery,12/10/2018,0900,Male,Black,0,N/A,N/A,Note,Burke & Hurbert Bank,5519 Franconia Road,Alexandria,UNK,Virginia,38.7836479,-77.1328325
+4909,Homicide,10/9/1980,UNK,Male,White,1,Female,29,UNK,Home,UNK,Portland,UNK,Oregon,45.523064,-122.676483
+4909,Murder,11/19/2000,UNK,Male,UNK,1,Female,24,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+4924,Murder,11/25/1989,UNK,Male,UNK,1,Female,29,UNK,Allyway Behind Diner,9555 York Settlement Rd,North Rose,UNK,New York,43.2087313,-76.935668
+4929,"Rape, Assault",8/1/1998,Night,Male,White,1,Female,32,Firearm,UNK,UNK,Spokane,UNK,Washington,UNK,UNK
+4930,Murder,4/21/1973,UNK,Male,White,1,Female,52,UNK,Single family home,UNK,Santa Cruz,UNK,California,36.9741,-122.0308
+4998,Murder,11/21/1987,UNK,Male,White,1,Male,24,UNK,Ambassador Hotel,2308 W Wisconsin Ave,Milwaukee,UNK,Wisconsin,43.0390236,-87.943979
+5029,Murder,1/1/1987,UNK,UNK,UNK,1,Female,22,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+5036,Murder,8/6/1976,UNK,Male,White,1,Male,17-21,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+5082,Murder,7/26/2003,UNK,Male,UNK,1,Female,20,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+5096,Carjacking,4/8/2023,2030,Male,UNK,1,UNK,UNK,Firearm,Street,4801 Russel Ave,Hyattsville,,Maryland,38.9477763,76.973544
+5141,Sexual Assault,10/17/2002,UNK,Male,Black,1,Female,UNK,UNK,Liberty University,1971 University Blvd,Lynchburg,UNK,Virginia,37.35553,-79.181122
+5153,Murder,1/1/1987,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+5162,Murder,11/23/1978,UNK,Male,White,1,Male,20,UNK,River,Des Plaines River,Channahon,Will,Illinois,41.391697,-88.2671512
+5166,Robbery,2/13/2018,1036,Male,Black,0,N/A,N/A,Note,Suntrust Bank,405 Manning Road,Maryland,UNK,Maryland,38.6588792,77.0166171
+5227,Assault,12/24/1975,UNK,Male,White,2,Female,"15, UNK",Firearm,Grocery Store parking lot,UNK,Bronx,UNK,New York,UNK,UNK
+5267,Attempted Robbery,6/29/2018,1444,Male,Black,0,N/A,N/A,Note,PNC Bank,3297 Crain Highway,Waldorf,UNK,Maryland,38.6232202,-76.9192743
+5271,"Murder, Sexual Assault",6/30/1962,1930,Male,White,1,Female,68,Hands,Apartment,1940 Commonwealth Ave,Boston,UNK,Massachusetts,42.34232,-71.08793
+5278,"Murder, Attempted Sexual Assault, Robbery",7/7/1985,UNK,Male,Hispanic,2,Female,"63, 61",UNK,Home,UNK,Monterey Park,UNK,California,34.038951,-118.10405
+5291,Attempted Robbery,1/1/2008,UNK,Male,White,1,Female,24,UNK,Bank ATM,UNK,Blairsville,UNK,Georgia,UNK,UNK
+5304,"Murder, Assault",7/4/1969,2355,Male,UNK,2,"Male, Female","19, 22",Firearm,Blue Rock Springs Park,650 Columbus Pkwy,Vallejo,UNK,California,38.1257701,-122.19253
+5314,"Murder, Rape",4/1/1998,Night,Male,White,1,Female,34,Firearm,UNK,E 4800 14th,Spokane,UNK,Washington,47.1,-122.5
+5351,Murder,2/20/2006,0738,Male,Black,2,"Male, Female","38, 34",Handgun,Street corner snack truck,91st Ave. & Lower Buckeye Rd.,Phoenix,Maricopa,Arizona,33.4212521,-112.2578957
+5354,Murder,5/27/1991,UNK,Male,White,1,Male,14,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+5363,Murder,1/1/1984,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Covington,UNK,Kentucky,39.0837,-84.5086
+5403,Rape,10/19/1994,UNK,Male,Hispanic,1,Female,14,UNK,Junkyard in Buffalo,UNK,UNK,UNK,UNK,UNK,UNK
+5407,"Murder, Sexual Assault",12/17/1989,UNK,Male,UNK,1,Female,33,UNK,Salmon River,Lehigh Rd,UNK,UNK,New York,43.540085,-75.881971
+5422,"Theft, Drug Possession",7/31/1987,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Dekalb,Georgia,UNK,UNK
+5428,Murder,UNK,UNK,Male,White,1,Male,UNK,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+5429,Sexual Assault,11/3/2005,2010,Male,Black,1,UNK,UNK,Handgun,Parking lot,3131 E Indian School Rd.,Phoenix,Maricopa,Arizona,33.4942635,-112.0163792
+5451,Murder,6/17/2018,UNK,Female,White,1,Male,92,Insulin injection,Hospital,8 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+5473,Robbery,7/12/2018,1014,Male,Black,0,N/A,N/A,Note,BB&T Bank,0660 Stanhaven Place,White Plains,UNK,Maryland,38.5937663,-76.9414722
+5485,Murder,1/1/1987,UNK,UNK,UNK,1,Female,26,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+5531,"Murder, Sexual Assault",12/31/1962,UNK,Male,White,1,Female,23,Hands,Apartment,515 Park Dr,Boston,UNK,Massachusetts,42.34801,-71.10558
+5535,Carjacking,6/14/2023,UNK,Male,UNK,1,UNK,UNK,Firearm,Street,1220 D St SE,Washington,Washington,District of Columbia,38.8844438,76.9892755
+5557,Rape,8/24/1989,UNK,Male,Hispanic,1,Female,14,Garrote,Willow Ridge Bike Path in Amherst,UNK,UNK,UNK,UNK,43.01824115,-78.80762846
+5588,Murder,5/27/1975,UNK,Male,White,1,Male,14-18,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+5610,Murder,3/8/1980,UNK,Male,White,1,Female,23,Firearm,Mount Tamalpais State Park,3801 Panoramic Hwy,Mill Valley,UNK,California,37.9039,-122.6038
+5652,Murder,2/1/1978,UNK,Male,White,1,Male,19,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+5706,Murder,1/1/1987,UNK,UNK,UNK,1,Female,40,UNK,Motel room,UNK,Las Vegas,UNK,Nevada,36.1716,-115.1391
+5734,"Murder, Rape",8/26/1997,Night,Male,White,1,Female,16,Firearm,Mt Spokane Foothills,UNK,UNK,UNK,Washington,UNK,UNK
+5766,"Murder, Rape",12/7/1997,Night,Male,White,1,Female,24,Firearm,UNK,3800 S 50th St.,Spokane,UNK,Washington,47.2,-122.4
+5786,Murder,6/6/2010,UNK,Male,UNK,1,Female,22,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+5791,Murder,5/31/1990,UNK,Female,White,1,Male,40,Handgun,UNK,UNK,UNK,Pasco,Florida,28.324723,-82.7616927
+5816,Murder,UNK,UNK,Female,White,1,Male,55,Poison,Boarding House,1430 F St,Sacramento,UNK,California,38.582705,-121.4872875
+5822,Prohibited Firearm Possession,UNK,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Clayton,Georgia,UNK,UNK
+5847,Murder,8/19/1979,UNK,Male,White,1,Female,44,Firearm,Mount Tamalpais State Park,3801 Panoramic Hwy,Mill Valley,UNK,California,37.9039,-122.6038
+5861,Murder,1/1/1991,UNK,UNK,UNK,1,Female,20,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+5863,Assault,9/16/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+5878,Murder,12/20/1888,UNK,Male,White,1,Female,UNK,Knife,Clarke's Yard,Poplar High St,London,UNK,United Kingdom,51.5093193,-0.0212947
+5896,Murder,UNK,UNK,Female,White,1,Female,64,Poison,Boarding House,1433 F St,Sacramento,UNK,California,38.582705,-121.4872875
+5939,Murder,7/31/1980,UNK,Male,Black,1,Male,10,Firearm,South Bend Park,1955 Compton Dr SE,Atlanta,UNK,Georgia,33.698746,-84.383862
+5950,Murder,3/30/1981,UNK,Male,Black,1,Male,13,Hands,Chattahoochie Bridge,92 Knox Bridge Hwy,White,UNK,Georgia,34.213733,-84.653917
+5961,Murder,UNK,UNK,Female,White,1,Female,78,Poison,Boarding House,1431 F St,Sacramento,UNK,California,38.582705,-121.4872875
+5963,Murder,1/30/2020,UNK,Male,Black,1,Female,52,Firearm,Apartment,500 block of Beechwood,River Rouge,UNK,Michigan,42.2658719,-83.151238
+5991,Murder,1/1/1984,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Atlanta,UNK,Georgia,33.7488,-84.3877
+5997,Rape,2/15/1981,0400,Male,White,1,Female,18,UNK,Home,UNK,Beaverton,UNK,Oregon,45.485168,-122.804489
+6000,Murder,2/18/1991,UNK,Male,White,1,Male,19,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+6001,Murder,8/13/1962,UNK,Male,UNK,1,Female,8,UNK,Single Family Residence,UNK,UNK,Pierce,Washington,47.0656579,-122.394087
+6009,Murder,1/1/1996,UNK,UNK,UNK,1,Female,40,UNK,UNK,UNK,Phoenix,UNK,Arizona,33.4484,-112.074
+6011,Murder,8/10/1969,UNK,"Female, Male, Female, Female",UNK,4,Male,44,UNK,Single Family Residence,3301 Waverly Dr,Los Angeles,UNK,California,34.1136308,-118.2730007
+6020,Murder,6/1/1973,UNK,Male,UNK,1,Female,17,UNK,Single Family Residence,UNK,West Linn,UNK,Oregon,45.3690311,-122.6757244
+6029,Kidnapping,1/1/2008,1330,Male,White,1,Female,24,UNK,Byron Reece Memorial Trail,UNK,Blairsville,UNK,Georgia,34.725299,-83.909465
+6031,"Kidnapping, Rape",2/4/1981,UNK,Male,White,1,Female,UNK,UNK,N/A,UNK,Yreka,UNK,California,41.735419,-122.634471
+6041,Murder,1/1/1996,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+6057,Rape,12/19/1983,UNK,Male,Hispanic,1,Female,UNK,Gun,Delaware Park Statue of David Woods,UNK,UNK,UNK,UNK,42.93412578,-78.87231204
+6075,Murder,8/25/1969,UNK,Male,UNK,1,Male,35,UNK,Ranch,UNK,Los Angeles,UNK,California,34.271667,-118.616389
+6099,Murder,5/15/1977,UNK,Male,White,1,Male,17-21,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+6135,Murder,1/22/1981,UNK,Male,Black,1,Male,15,Hands,Sigman Road in Rockdale County,Sigman Road SW,Conyers,UNK,Georgia,33.683036,-84.063704
+6149,Murder,7/9/1988,UNK,Male,UNK,1,Female,28,UNK,Genessee River,2650 Lake Ave,Rochester,UNK,New York,43.2141173,-77.620461
+6150,Murder,4/8/2018,UNK,Female,White,1,Male,82,Insulin injection,Hospital,6 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+6151,Murder,6/1/1990,UNK,Female,White,1,Male,43,Handgun,US Route 19,UNK,UNK,Citrus,Florida,28.8589973,-82.7888849
+6217,Murder,4/1/1983,UNK,Male,White,1,Female,17,UNK,Near Highline Community College,S. 240th St. & Pacific Hwy S.,Kent,UNK,Washington,UNK,UNK
+6228,Murder,3/25/1989,UNK,Male,White,1,Male,26,UNK,South of Milwaukee,2357 South 57th St.,West Allis,UNK,Wisconsin,43.0016092,-87.9863977
+6230,Murder,5/24/1991,UNK,Male,White,1,Male,31,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+6234,Assault,11/27/1976,0000,Male,White,2,Female,"16, 18",Firearm,Single Family Residence,262nd St,Queens,UNK,New York,40.7603,-73.7205
+6263,Murder,7/8/1982,UNK,Male,White,1,Female,16,UNK,Along the Green River,UNK,UNK,UNK,Washington,UNK,UNK
+6297,Murder,3/19/2002,1200,Male,UNK,1,Male,60,Firearm,Golf Course,UNK,Tucson,UNK,Arizona,32.1561,-111.0239
+6307,Murder,8/9/1969,UNK,"Female, Female, Male",UNK,2,"Female, UNK","26, 0",UNK,Single Family Residence,10050 Cielo Dr,Los Angeles,UNK,California,34.0948181,-118.4336042
+6312,Attempted Murder,8/6/1985,UNK,Male,Hispanic,2,"Male, Female","UNK, 27",UNK,Home,UNK,North Ridge,UNK,California,34.236372,-118.56224
+6337,Assault,1/1/2016,0045,UNK,UNK,1,UNK,22,Firearm,Street,2800 N 58th Dr,Phoenix,Maricopa,Arizona,33.47781387,-112.1835965
+6339,Sexual Assault,1/1/2008,UNK,Male,White,1,Female,24,UNK,Car,UNK,UNK,UNK,UNK,UNK,UNK
+6364,Murder,8/22/1982,UNK,Male,White,1,Female,31,UNK,Near Eastgate parking lot,14200 SE Eastgate Way,Bellevue,UNK,Washington,UNK,UNK
+6373,Murder,4/22/1981,UNK,Male,Black,1,Male,21,Hands,Bankhead Highway Bridge,Donald Lee Hollowell Pkwy NW,Atlanta,UNK,Georgia,33.776019,-84.44889
+6374,Murder,9/22/1987,UNK,UNK,UNK,2,"Male, Female","20, 14",Knife,Ragged Island Wildlife Refuge,UNK,UNK,Isle of Wight County,Virginia,36.9588,-76.5035
+6380,Attempted Robbery,UNK,UNK,Male,White,1,Female,46,UNK,Hancock Whitney ATM,101 N Monroe St,Tallahassee,UNK,Florida,30.438631,-84.280992
+6397,"Murder, Sexual Assault",12/28/1989,UNK,Male,UNK,1,Female,20,UNK,Near Salmon River and Woods,N/A,UNK,UNK,New York,UNK,UNK
+6399,Failure to register as a sexual offender,2/14/2018,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,Orlando,UNK,Florida,28.54,28.54
+6422,Murder,2/5/1973,UNK,Male,White,1,Female,21,Handgun,University of California,UNK,Santa Cruz,UNK,California,36.974117,-122.030792
+6429,"Murder, Rape",12/26/1997,Night,Male,White,1,Female,39,Firearm,UNK,E 4800 14th,Spokane,UNK,Washington,47.1,-122.5
+6458,Murder,4/6/1976,UNK,Male,White,1,Male,19,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+6466,Murder,4/19/2023,UNK,UNK,UNK,1,UNK,21,Drowning,UNK,UNK,Waukegan,UNK,Illinois,42.365,-87.850
+6468,Murder,4/1/1983,UNK,Male,White,1,Female,17,UNK,Near Highline Community College,S. 240th St. & Pacific Hwy S.,Kent,UNK,Washington,UNK,UNK
+6490,Murder,1/1/1980,UNK,UNK,UNK,1,Female,22,UNK,UNK,UNK,Gulfport,UNK,Mississippi,30.3674,-89.0928
+6512,"Murder, Assault",7/31/1977,0200,Male,White,2,"Male, Female","20, 20",Firearm,Neighborhood parking lot,86th St & 14th Ave.,Brooklyn,UNK,New York,40.602,-74.003
+6524,Assault,8/12/2015,UNK,UNK,UNK,1,UNK,UNK,Firearm,Street,900 E Colter St.,Phoenix,Maricopa,Arizona,33.51302714,-112.0628252
+6539,Murder,10/18/1974,UNK,Male,UNK,1,Female,17,UNK,Pizza Parlor,UNK,Midvale,UNK,Utah,40.6123825,-111.9062706
+6575,Murder,1/1/1996,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+6592,Falsely Impersonating an Officer,6/1/2018,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+6636,"Homicide, Sexual Assault",2/3/1981,UNK,Male,White,2,"Female, Female","37, 14",UNK,Home,UNK,Shasta City,UNK,California,40.790886,-121.847449
+6643,Murder,1/1/1974,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Cincinnati,UNK,Ohio,39.1031,-84.512
+6669,Murder,8/9/1969,UNK,UNK,UNK,1,Male,32,UNK,Single Family Residence,10050 Cielo Dr,Los Angeles,UNK,California,34.0948181,-118.4336042
+6703,Murder,1/1/1993,UNK,UNK,UNK,1,Female,40,UNK,UNK,UNK,Las Vegas,UNK,Nevada,36.1716,-115.1391
+6732,Murder,1/1/1981,UNK,UNK,UNK,1,Female,35,UNK,UNK,UNK,Atlanta,UNK,Georgia,33.7488,-84.3877
+6733,Murder,10/15/1980,UNK,Male,White,1,Female,26,Firearm,Mount Tamalpais State Park,3801 Panoramic Hwy,Mill Valley,UNK,California,37.9039,-122.6038
+6737,Wiretapping,10/1/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,UNK,Florida,UNK,UNK
+6765,Murder,3/16/2023,UNK,UNK,UNK,1,UNK,24,Drowning,Chicago River,UNK,Chicago,UNK,Illinois,41.889,-87.623
+6787,Murder,10/3/2002,0958,Male,UNK,1,Female,25,Firearm,Gas Station,Connecticut Ave & Knowles Ave,Kensington,UNK,Maryland,39.028,-77.0761
+6814,"Kidnapping, Rape",2/3/1981,UNK,Male,White,1,Female,18,UNK,N/A,UNK,edding,UNK,California,40.58654,-122.391678
+6815,Murder,5/2/1997,UNK,Male,White,1,Male,33,Firearm,UNK,UNK,Rush City,UNK,Minnesota,UNK,UNK
+6839,"Murder, Sexual Assault, Robbery",4/3/1888,UNK,Male,White,1,Female,UNK,Knife,Street Junction,E1 6RE,London,UNK,United Kingdom,51.5173102,-0.0727328
+6895,Murder,9/24/1990,UNK,Male,White,1,Male,23,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+6901,Abduction,9/13/2014,0045,Male,Black,1,Female,18,UNK,McGrady's Pub,946 Grady Ave,UNK,UNK,UNK,38.03804,-78.49118
+6902,Murder,4/4/2011,UNK,Male,UNK,1,Male,17-23,Hands,Gilgo Beach,UNK,Babylon,UNK,New York,40.61921545,-73.39766586
+6912,Murder,4/26/1982,UNK,Female,White,1,Female,61,Poison,Boarding House,1426 F St,Sacramento,UNK,California,38.582705,-121.4872875
+6913,Murder,10/30/1966,2130,Male,UNK,1,Female,17,Knife,Riverside City College,4800 Magnolia Ave,Riverside,UNK,California,33.9711426,-117.38312
+6920,Murder,1/1/1976,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,St. Louis,UNK,Missouri,38.627,-90.1994
+6949,Murder,8/6/1976,UNK,Male,White,1,Male,21-27,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+6960,"Murder, Rape",12/28/1988,Night,Male,White,1,Female,23,Firearm,Big Lake,UNK,Spokane,UNK,Washington,48.39 N,-122.23
+6974,Murder,10/24/1976,UNK,Male,White,1,Male,16,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+6995,Murder,1/1/1971,UNK,UNK,UNK,1,Female,18,UNK,"Sugarcane field, North on Highway 27",UNK,Miami,UNK,Florida,25.761681,-80.191788
+7005,Murder,6/18/1978,UNK,Male,White,1,Male,19,UNK,UNK,4480 W Bath Rd,Akron,UNK,Ohio,41.168501,-81.6619237
+7024,Murder,6/7/1905,UNK,Female,White,1,Male,77,Poison,Boarding House,1427 F St,Sacramento,UNK,California,38.582705,-121.4872875
+7027,Murder,UNK,UNK,Female,White,1,Male,51,Poison,Boarding House,1428 F St,Sacramento,UNK,California,38.582705,-121.4872875
+7040,Murder,10/9/2002,2018,Male,UNK,1,Male,53,Firearm,Gas Station,7203 Sudley Rd,Manassas,UNK,Virginia,38.7977,-77.5175
+7058,Murder,8/27/1964,UNK,Male,White,1,Female,66,UNK,UNK,UNK,North Fork,UNK,California,37.229669,-119.509581
+7083,Assault,7/5/1985,UNK,Male,Hispanic,1,Female,16,UNK,Home,UNK,Sierra Madre,UNK,California,34.15721,-118.04914
+7088,Murder,5/7/1972,UNK,Male,White,1,Female,18,UNK,UNK,UNK,Alameda,UNK,California,37.765205,-122.241638
+7090,Kidnapping,2/4/1974,UNK,Male,UNK,1,Female,18,UNK,Single Family Residence,UNK,Tacoma,UNK,Washington,47.2492346,-122.5270366
+7119,Murder,3/10/1905,UNK,Male,White,1,Male,UNK,UNK,World's Fair Hotel,614 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+7125,Murder,1/1/1972,UNK,UNK,UNK,1,Female,20,UNK,UNK,UNK,UNK,Prince George,Maryland,38.7849,-76.8721
+7143,"Murder, Kidnapping",1/14/1978,UNK,Male,UNK,5,Female,"21, 20, 20, 21, UNK",UNK,Florida State University,UNK,UNK,UNK,Florida,30.4418778,-84.3006829
+7145,"Murder, Rape",6/14/1996,Afternoon,Male,White,1,Female,38,Firearm,UNK,12600 Hangman Valley Road,Spokane,UNK,Washington,47 N,117 W
+7166,Reckless Driving,9/7/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,Windermere,UNK,Florida,28.49667,-81.53389
+7184,Assault,6/3/2016,2150,UNK,UNK,1,Male,32,Firearm,Street,6700 W Flower St,Phoenix,Maricopa,Arizona,33.48529,-112.203369
+7190,Missing Person,9/11/1990,UNK,Female,White,1,Male,40,UNK,UNK,UNK,UNK,Marion,Florida,29.2410352,-82.3676465
+7196,Murder,3/24/1988,UNK,Male,White,1,Male,23,UNK,South of Milwaukee,2357 South 57th St.,West Allis,UNK,Wisconsin,43.0016092,-87.9863977
+7215,"Attempted Homicide, Robbery",1/11/1981,UNK,Male,White,1,Female,20,UNK,Market,UNK,Sutherlin,UNK,Oregon,43.390118,-123.312576
+7220,"Murder, Rape",10/30/1992,UNK,Male,Hispanic,1,Female,32,Hands,Near the Amtrak rail line in downtown Buffalo,UNK,UNK,UNK,UNK,42.87844931,-78.87210618
+7226,Robbery,3/8/2018,1235,Male,Black,0,N/A,N/A,Note,M&T Bank,7485 Richmond Highway,Alexandria,UNK,Virginia,38.7551337,-77.0851214
+7229,Murder,10/24/1976,UNK,Male,White,1,Male,14,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+7231,Murder,9/14/1980,UNK,Male,Black,1,Male,11,UNK,Street Corner,Glenwood Avenue SE & 2nd Avenue SE,Atlanta,UNK,Georgia,33.740057,-84.309689
+7232,Wiretapping,9/26/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,UNK,Florida,UNK,UNK
+7234,DUI,UNK,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Miami Dade,Florida,UNK,UNK
+7238,Murder,10/14/2002,2119,Male,UNK,1,Female,47,Firearm,Retail,Arlington Blvd & Patrick Dr,Falls Church,UNK,Virginia,38.8686,-77.1499
+7262,Assault,6/12/2016,0235,UNK,UNK,1,UNK,UNK,Firearm,Street,6200 W Mariposa Dr,Phoenix,Maricopa,Arizona,33.507729,-112.191868
+7287,Murder,2/15/2006,UNK,"Male, Female",White,1,Female,27,Hands,UNK,Lempke Street,New Baltimore,UNK,Michigan,42.68121828,-82.7369
+7311,Assault,7/22/1991,UNK,Male,White,1,Male,32,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+7341,Murder,11/9/1888,1045,Male,White,1,Female,UNK,Knife,Victim's Room,13 Miller's Court,London,UNK,United Kingdom,51.4892451,-0.2467709
+7345,Murder,10/2/2002,1830,Male,UNK,1,Male,55,Firearm,Grocery,2201 Randolph Rd,Wheaton,UNK,Maryland,39.0603,-77.0473
+7379,Failure to register as a sexual offender,4/8/2020,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+7405,Murder,7/19/1971,UNK,Male,UNK,1,Female,24,UNK,Apartment,UNK,Burlington,UNK,Vermont,44.4925850,-73.2617536
+7443,"Murder, Attempted Murder",3/17/1985,UNK,Male,Hispanic,2,Female,"22, 34",UNK,Home,UNK,Rosemead,UNK,California,34.056393,-118.09509
+7461,Murder,5/17/1980,UNK,Male,White,1,Male,16,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+7466,Abduction,10/10/2009,UNK,Male,Black,1,Female,23,UNK,UNK,Park Avenue,Lynchburg,UNK,Virginia,37.404951,-79.158334
+7477,"Murder, Rape",12/26/1997,Night,Male,White,1,Female,31,Firearm,UNK,E 4800 14th,Spokane,UNK,Washington,47.1,-122.5
+7502,Robbery,11/13/2018,1300,Male,Black,0,N/A,N/A,Note,Wells Fargo,1805 Belle View Blvd,Alexandria,UNK,Virginia,38.7750494,-77.0662701
+7559,Rape,12/22/1983,UNK,Male,Hispanic,1,Female,28,UNK,Delaware Park Statue of David Woods,UNK,UNK,UNK,UNK,42.93412578,-78.87231204
+7567,Murder,6/23/1980,UNK,Male,Black,1,Male,10,Hands,Tanner's Corner Grocery Store,828 McDonough Blvd SE,Atlanta,UNK,Georgia,33.708959,-84.359512
+7584,Murder,9/19/1981,UNK,Male,White,1,Male,24,Hands,UNK,195 Melrose Ave,London,UNK,UNK,51.436079,-0.200492
+7609,Falsely Impersonating an Officer,9/2/2019,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+7661,Murder,1/26/1983,UNK,Male,White,1,Male,20,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+7676,Murder,1/1/1974,UNK,UNK,UNK,1,Female,22,UNK,UNK,UNK,Savannah,UNK,Georgia,32.0809,-81.0912
+7679,Murder,3/6/1981,UNK,Male,Black,1,Male,13,Hands,South River on Waldrop Road,Waldrop Road,Decatur,UNK,Georgia,33.680551,-84.252286
+7687,Murder,4/20/1981,UNK,Male,Black,1,Male,23,Hands,Campbellton Road Bridge,Campbellton Rd SW,Atlanta,UNK,Georgia,33.7021,-84.4658
+7713,Murder,12/6/2007,UNK,Male,White,1,Female,46,UNK,National forest,Bloxham Cutoff Rd,UNK,UNK,Florida,30.423777,-84.352207
+7758,Assault,5/1/1982,UNK,Male,White,1,Male,21,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+7762,Murder,1/1/1976,UNK,UNK,UNK,1,Female,26,UNK,UNK,UNK,Granite City,UNK,Illinois,38.7014,-90.1487
+7765,Murder,1/1/1975,UNK,UNK,UNK,1,Female,25,UNK,UNK,UNK,Knoxville,UNK,Tennessee,35.9606,-83.9207
+7777,Assault,9/24/2005,2140,Male,Black,1,Female,26,UNK,Woods behind the Cavalier Court Apartment Complex,11100 Cavalier Ct,Fairfax,UNK,Virginia,38.86204,-77.32809
+7787,Murder,4/12/1981,UNK,Male,Black,1,Male,28,Knife,Vacant lot,796 NW Bender Street,Atlanta,UNK,Georgia,33.733299,-84.406571
+7804,Murder,3/7/1905,UNK,Male,White,1,Female,21,UNK,World's Fair Hotel,616 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+7821,Murder,3/20/1981,UNK,Male,Black,1,Male,21,UNK,Chattahoochie Bridge,92 Knox Bridge Hwy,White,UNK,Georgia,34.213733,-84.653917
+7826,"Rape, Robbery",5/30/1985,UNK,Male,Hispanic,1,Female,42,UNK,Home,UNK,Burbank,UNK,California,34.2068,-118.28026
+7867,Murder,1/1/1971,UNK,UNK,UNK,1,Female,25,UNK,UNK,UNK,Kendall,UNK,Florida,25.666,-80.3578
+7878,Murder,5/29/1975,UNK,Male,White,1,Male,22-30,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+7924,Robbery,11/3/2005,2001,Male,Black,1,UNK,UNK,Handgun,UNK,4019 N 32nd St.,Phoenix,Maricopa,Arizona,33.4941014,-112.0147543
+7988,Murder,2/5/1973,UNK,Male,White,1,Female,23,Handgun,University of California,UNK,Santa Cruz,UNK,California,36.974117,-122.030792
+8034,Murder,10/11/1980,UNK,Male,White,2,"Male, Female","19, 18",Firearm,Point Reyes National Seashore Park,UNK,Point Reyes Station,UNK,California,38.0692,-122.8076
+8047,"Murder, Sexual Assault",8/19/1962,UNK,Male,White,1,Female,75,Hands,Apartment,7 Grove St,Boston,UNK,Massachusetts,42.26716,-71.16107
+8053,Aggravated Assault,9/5/2002,2230,Male,UNK,1,Male,55,Firearm,Restaurant,9009 Stuart Ln,Clinton,UNK,Maryland,38.7646,-76.8871
+8058,Murder,8/6/1976,UNK,Male,White,1,Male,17,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+8072,Rape,5/31/1990,UNK,Male,Hispanic,1,Female,32,Garrote,Ellicott Creek Bike Path,UNK,UNK,UNK,UNK,42.99631291,-78.75898459
+8092,Murder,1/20/1976,UNK,Male,White,1,Male,22-32,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+8164,"Murder, Rape",Jul-75,Night,Male,White,1,Female,22,Firearm,UNK,UNK,Walla Walla,UNK,Washington,46.06 N,118.34 W
+8178,Murder,6/30/1991,UNK,Male,White,1,Male,20,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+8190,Murder,UNK,UNK,Female,White,1,Female,64,Poison,Boarding House,1429 F St,Sacramento,UNK,California,38.582705,-121.4872875
+8205,"Murder, Sexual Assault",6/30/1962,UNK,Male,White,1,Female,65,Hands,Apartment,73 Newhall St,Lynn,UNK,Massachusetts,42.34232,-71.08793
+8241,Murder,9/1/1979,UNK,Male,White,1,Female,19,Firearm,Cookie Cliff in Yosemitie National Park,UNK,UNK,UNK,California,UNK,UNK
+8248,Sexual Assault,9/15/2005,0940,Male,Black,1,UNK,UNK,Handgun,UNK,4512 N 40th St.,Phoenix,Maricopa,Arizona,33.5030479,-111.9979869
+8351,Murder,6/1/1894,UNK,Male,White,1,Male,UNK,UNK,World's Fair Hotel,613 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+8424,Rape,4/3/1984,UNK,Male,Hispanic,1,Female,22,UNK,"1700 Elmwood Ave, near railroad overpass",UNK,UNK,UNK,UNK,42.94342135,-78.87946775
+8441,"Murder, Rape",7/7/1998,Afternoon,Male,White,1,Female,47,Firearm,UNK,N 218 Crestline,Spokane,UNK,Washington,47.6,-117.4
+8446,Murder,3/18/1988,UNK,Male,UNK,1,Female,27,UNK,Salmon River,Lehigh Rd,UNK,UNK,New York,43.540085,-75.881971
+8461,Murder,7/31/1990,UNK,Female,White,1,Male,50,Handgun,State Road 19,UNK,UNK,Marion,Florida,29.2410352,-82.3676465
+8480,Murder,7/15/1997,0845,Male,White,1,Male,50,Firearm,UNK,UNK,Miami Beach,UNK,Florida,UNK,UNK
+8481,Aggravated Assault,10/19/2002,2000,Male,UNK,1,Male,37,Firearm,Restaurant,809 England St,Ashland,UNK,Virginia,37.758,-77.4652
+8493,Murder,10/19/1989,UNK,UNK,UNK,2,"Male, Female","18, 21",Knife,Wooded area,UNK,UNK,New Kent County,Virginia,37.51,-77
+8499,Murder,7/25/1982,UNK,Male,White,1,Female,23,UNK,Near the intersection of S 188th St & Orillia Rd,Orillia Rd & S. 188th St.,SeaTac,UNK,Washington,UNK,UNK
+8523,Aggravated Assault,10/7/2002,0809,Male,UNK,1,Male,13,Firearm,School,4901 Collington Rd,Bowie,UNK,Maryland,38.9584,-76.7451
+8525,Murder,10/21/2007,1400,Male,White,1,Female,84,UNK,National forest,11250 Pisgah Hwy,Pisgah Forest,UNK,North Carolina,35.316483,-82.790056
+8586,Murder,1/1/1975,UNK,UNK,UNK,1,Female,23,UNK,UNK,UNK,Miami,UNK,Florida,25.7617,-80.1918
+8607,Assault,11/23/1981,UNK,Male,White,1,Male,25,Hands,Cranley Gardens,UNK,London,UNK,UNK,51.586081,-0.1419054
+8630,Murder,2/16/2002,1900,Male,UNK,1,Female,21,Firearm,Home,UNK,Tacoma,UNK,Washington,47.2494,-122.5269
+8700,Theft,8/11/1995,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Dekalb,Georgia,UNK,UNK
+8710,Murder,11/18/1977,UNK,Male,White,1,Male,20,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+8719,Murder,7/9/1983,UNK,Male,White,1,Female,18,UNK,Not found,UNK,UNK,UNK,Washington,UNK,UNK
+8732,Assault,8/16/2015,2200,UNK,UNK,1,UNK,61,Firearm,Street,900 E Montebello Ave,Phoenix,Maricopa,Arizona,33.52062262,-112.0626503
+8740,Robbery,12/2/2007,UNK,Male,White,1,Female,46,UNK,Hancock Whitney ATM,101 N Monroe St,Tallahassee,UNK,Florida,30.438631,-84.280992
+8763,Sexual Assault,5/1/2006,2100,Male,Black,1,UNK,UNK,Handgun,Parking lot,2950 N 32nd St.,Phoenix,Maricopa,Arizona,33.4820697,-112.015462
+8783,"Attempted Murder, Sexual Assault, Robbery",8/24/1985,UNK,Male,Hispanic,2,"Male, Female","30, 29",UNK,Home,UNK,Mission Viejo,UNK,California,33.625016,-117.68289
+8792,Murder,1/1/1984,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Fort Myers,UNK,Florida,26.6406,-81.8723
+8795,"Sexual Assault, Robbery",8/14/2005,0410,Male,Black,1,UNK,UNK,Handgun,UNK,2425 E Thomas Rd.,Phoenix,Maricopa,Arizona,33.4800947,-112.0309626
+8803,Robbery,1/2/2019,UNK,Male,Black,0,N/A,N/A,Note,Capital One bank,15460 Annapolis Road,Bowie,UNK,Maryland,39.0259514,-77.0438126
+8805,Murder,2/9/1978,UNK,Male,UNK,1,Female,12,UNK,School,UNK,Salt Lake City,UNK,Utah,30.2015238,-82.6950022
+8859,Murder,7/15/1991,UNK,Male,White,1,Male,23,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+8876,Murder,9/17/1972,UNK,Male,White,1,Female,15,UNK,UNK,UNK,San Francisco,UNK,California,37.7749,-122.4194
+8925,Murder,4/11/2020,UNK,Male,UNK,1,Female,UNK,Hands,Jones Beach State Park,UNK,Wantagh,UNK,New York,40.5964899,-73.50805382
+8933,Robbery,12/3/2007,UNK,Male,White,1,Female,46,UNK,Hancock Whitney ATM,101 N Monroe St,Tallahassee,UNK,Florida,30.438631,-84.280992
+8941,"Murder, Robbery",4/27/1997,0955,Male,White,1,Male,28,Hands,UNK,UNK,Minneapolis,UNK,Minnesota,UNK,UNK
+8969,"Sexual Assault, Robbery",9/28/2005,2130,Male,Black,1,UNK,UNK,Handgun,UNK,7202 S Central Ave.,Phoenix,Maricopa,Arizona,33.3811256,-112.0758344
+8988,Murder,10/11/2002,0940,Male,UNK,1,Male,53,Firearm,Gas Station,"Exxon, Spotsylvania",Fredericksburg,UNK,Virginia,38.235,-77.559
+8991,Rape,5/1/1989,UNK,Male,Hispanic,1,Female,15,UNK,Near an abandoned building in Buffalo,UNK,UNK,UNK,UNK,UNK,UNK
+8997,Failure to appear to sexual offender hearing,2/14/2018,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,Orlando,UNK,Florida,28.54,-81.38
+9015,"Murder, Robbery",7/20/1985,UNK,Male,Hispanic,2,"Male, Female","68, 66",UNK,Home,UNK,Glendale,UNK,California,34.153494,-118.27892
+9019,Murder,5/6/1974,UNK,Male,UNK,1,Female,20,UNK,Oregon State University,UNK,UNK,UNK,Oregon,44.5637806,-123.2816383
+9025,Abduction,7/24/2003,1900,Male,Black,1,Female,24,UNK,Food Lion Grocery Store,15435 Warwick Blvd.,Newport News,UNK,Virginia,37.15165,-76.55521
+9030,Robbery,11/7/2005,2008,Male,Black,1,UNK,UNK,Handgun,Las Brasas; Little Caesar's; Street,2950 N 32nd St.,Phoenix,Maricopa,Arizona,33.4820697,-112.015462
+9058,Murder,11/30/1989,UNK,Female,White,1,Male,51,Handgun,Interstate 75,UNK,UNK,UNK,Florida,28.3607468,-82.1308943
+9067,Rape,4/14/1981,UNK,Male,Hispanic,1,Female,21,Knife,Delaware Park Statue of David Woods,UNK,UNK,UNK,UNK,42.93412578,-78.87231204
+9082,Murder,11/4/1978,UNK,Male,White,1,Male,19,UNK,River,Des Plaines River,Channahon,Will,Illinois,41.391697,-88.2671512
+9136,"Murder, Rape",11/5/1997,Night,Male,White,1,Female,29,Firearm,UNK,12600 Hangman Valley Road,Spokane,UNK,Washington,47.5,-117.4
+9137,Murder,7/28/1979,UNK,Male,Black,1,Male,14,Firearm,Unamed wooded area,Niskey Lake Rd SW,Atlanta,UNK,Georgia,33.69213,-84.52783
+9159,Robbery,9/28/2005,UNK,Male,Black,1,UNK,UNK,Handgun,Walgreen's,1425 W Baseline Rd.,Tempe,Maricopa,Arizona,33.378269,-111.9643844
+9198,Murder,7/19/2018,UNK,Female,White,1,Male,82,Insulin injection,Hospital,2 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+9216,Carjackng,5/26/2023,UNK,Male,UNK,1,UNK,UNK,Firearm,Street,UNK,,UNK,UNK,UNK,UNK
+9228,Murder,8/10/1969,UNK,UNK,UNK,1,Female,39,UNK,Single Family Residence,3301 Waverly Dr,Los Angeles,UNK,California,34.1136308,-118.2730007
+9229,Murder,5/20/1990,UNK,Male,White,1,Male,33,UNK,Oxford Apartments ,924 N 25th St,Milwaukee,UNK,Wisconsin,43.0422719,-87.9465747
+9231,Sexual Assault,9/7/2003,UNK,Male,Black,1,Female,UNK,UNK,Christopher Newport University,1 Avenue of the Arts,Newport News,UNK,Virginia,37.0639948,-76.4947517
+9281,"Murder, Sexual Assault",1/4/1964,UNK,Male,White,1,Female,19,Hands,Apartment,44-A Charles St,Boston,UNK,Massachusetts,42.35724,-71.07027
+9311,Aggravated Assault,1/30/2020,UNK,Male,Black,1,Male,44,Firearm,Apartment,500 block of Beechwood,River Rouge,UNK,Michigan,42.2658719,-83.151238
+9315,Murder,1/1/1987,UNK,UNK,UNK,1,Female,UNK,UNK,UNK,UNK,Los Angeles,UNK,California,34.0549,-118.2426
+9332,Murder,7/14/1974,UNK,Male,UNK,2,Female,"23, 18",UNK,Lake Sammamish State Park,UNK,UNK,UNK,Washington,47.5599435,-122.0576763
+9354,Murder,4/20/1996,UNK,Male,UNK,1,Female,UNK,Hands,Tobay Beach,UNK,Oster Bay,Nassau,New York,40.61222516,-73.43175525
+9412,Murder,5/1/1981,UNK,Male,White,1,Female,20,Firearm,Big Basin State Park,21600 Big Basin Way,Boulder Creek,UNK,California,37.1734,-122.2219
+9434,Murder,4/17/1977,0300,Male,White,2,"Male, Female","20, 18",Firearm,Street,UNK,Bronx,UNK,New York,40.846,-73.878
+9435,Murder,7/6/1980,UNK,Male,Black,1,Male,9,Knife,Neighborhood,657 Wells Street SW,Atlanta,UNK,Georgia,33.738435,-84.409819
+9447,Murder,10/31/1974,UNK,Male,UNK,1,Female,17,UNK,Park,UNK,Lehi,UNK,Utah,40.4133407,-111.9390069
+9450,Murder,2/16/2023,UNK,UNK,UNK,1,UNK,23,Drowning,Chicago River,UNK,Chicago,UNK,Illinois,41.889,-87.623
+9448,Murder,3/29/2006,0000,Male,Black,1,Female,UNK,Handgun,Parking lot,2502 N 24th St.,Phoenix,Maricopa,Arizona,33.4750748,-112.0327961
+9458,Murder,8/27/1964,UNK,Male,White,1,Male,72,UNK,UNK,UNK,North Fork,UNK,California,37.229669,-119.509581
+9473,Murder,1/1/1980,UNK,UNK,UNK,1,Female,25,UNK,UNK,UNK,UNK,Dade,Georgia,34.9109,-85.4788
+9493,Murder,5/28/1975,UNK,Male,White,1,Male,18,UNK,Single Family Home,8213 W. Summerdale Ave,Chicago,UNK,Illinois,41.9762052,-87.8346028
+9510,Murder,1/1/1981,UNK,Male,White,1,Male,UNK,Hands,UNK,UNK,London,UNK,UNK,UNK,UNK
+9559,Murder,10/3/2002,0837,Male,UNK,1,Female,34,Firearm,Retail,3701 Rossmore Blvd,Silver Spring,UNK,Maryland,39.1013,-77.0726
+9588,Murder,4/9/1981,UNK,Male,Black,1,Male,20,Hands,Ground Floor Apartment,460 Temple Street,Atlanta,UNK,Georgia,33.767043,-84.422003
+9606,Murder,6/28/1984,UNK,Male,Hispanic,1,Female,79,UNK,Apartment,UNK,Glassell Park,UNK,California,34.109036,-118.23338
+9633,Assault,6/26/1977,0300,Male,White,2,"Male, Female","20, 17",Firearm,Nightclub parking lot,210‐22 Northern Boulevard,Queens,UNK,New York,40.7625,-73.831
+9644,Murder,10/21/1979,UNK,Male,White,1,Female,23,Firearm,Palace of the Legion of Honor at Lands End,100 34th Ave,San Francisco,UNK,California,37.7846,-122.5009
+9652,Falsely Impersonating an Officer,9/17/2021,UNK,Male,White,1,UNK,UNK,UNK,UNK,UNK,UNK,Orange,Florida,28.51,-81.32
+9700,Murder,1/28/2018,UNK,Female,White,1,Male,89,Insulin injection,Hospital,3 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+9705,Murder,3/23/2017,UNK,Female,White,1,Male,84,Insulin injection,Hospital,1 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+9735,Murder,6/3/2018,UNK,Female,White,1,Male,88,Insulin injection,Hospital,7 Medical Center Dr,Clarksburg,UNK,West Virginia,39.2704,-80.3618
+9746,Assault,3/18/2016,2330,UNK,UNK,1,Male,21,Firearm,Street,4300 N 73rd Ave,Phoenix,Maricopa,Arizona,33.498296,-112.216232
+9770,Robbery,12/22/2017,1547,Male,Black,0,N/A,N/A,Note,BB&T Bank,13045 Lee jackson memorial Highway,Fairfax,UNK,Virginia,38.8800799,-77.3989326
+9789,"Murder, Assault",9/27/1969,1815,Male,UNK,2,"Male, Female","20, 22",Knife,Shoreline of Lake Berryessa,5520 Knoxville Rd,Napa,UNK,California,38.3604029,-122.78971
+9809,Murder,12/7/2019,UNK,Male,Black,1,Female,31,Firearm,Residence,500 block of Beechwood,River Rouge,UNK,Michigan,42.2658719,-83.151238
+9835,Murder,2/13/1891,UNK,Male,White,1,Female,UNK,Knife,Railway Arch,Chamber Street and Royal Mint Street,London,UNK,United Kingdom,51.5104662,-0.0728038
+9857,Murder,UNK,UNK,Male,White,1,Female,UNK,UNK,World's Fair Hotel,619 W 63rd St,Chicago,UNK,Illinois,41.780,-87.640
+9859,Murder,11/19/1990,UNK,Female,White,1,Male,62,Handgun,UNK,UNK,UNK,Dixie,Florida,29.5385171,-83.4727983
+9870,Murder,6/28/1975,UNK,Male,UNK,1,Female,15,UNK,Single Family Residence,UNK,Layton,UNK,Utah,41.0769356,-112.0025847
+9875,Homicide,11/27/1980,UNK,Male,White,2,"Female, Male","22, 24",UNK,Home,UNK,Portland,UNK,Oregon,45.523064,-122.676483
+9928,Murder,6/28/1997,UNK,Male,UNK,1,Female,UNK,Hands,Hempstead Lake State Park,UNK,Lark View,UNK,New York,40.68409703,-73.64303646
+9944,"Murder, Rape",9/29/2006,UNK,Male,Hispanic,1,Female,45,Hands,Clarence Bike Path,UNK,UNK,UNK,UNK,43.0157637,-78.6362841
+9966,Murder,5/7/1972,UNK,Male,UNK,1,Male,10,UNK,Woods,UNK,Watertown,UNK,New York,43.9722779,-75.936313
+9973,Arson,10/1/1970,UNK,Male,UNK,1,UNK,UNK,UNK,Paper Mill,513 State St,Clayton,UNK,New York,44.2360616,-76.085324
+9980,Murder,3/29/1981,UNK,Male,White,2,"Male, Female","20, 20",Firearm,Henry Cowell Redwoods State Park,UNK,UNK,UNK,California,37.0401,-122.0639
